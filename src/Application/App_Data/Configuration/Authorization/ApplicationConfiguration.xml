@@ -1,0 +1,5 @@
+<root>
+	<rules resourceName="Save">
+		<allow users="Administrator" />
+	</rules>
+</root>

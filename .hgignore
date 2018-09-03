@@ -1,0 +1,26 @@
+syntax: glob
+*.orig
+*~
+*.DotSettings
+.*.swp
+src/*/obj/*
+build/out/*
+build/pkg/*
+src/_ReSharper.*/*
+src/*.suo
+*.csproj.user
+build/build-utilities/
+src/*/Properties/GeneratedProductInfo.cs
+bin/Debug/
+bin/Debug_wo_SA/
+TestApplication/bin/
+src/TestApplication/App_Data/wc_revision.txt
+Properties/GeneratedProductInfo.cs
+build/artifacts/
+lib/
+build/target/
+src/Application/bin/
+src/Application/App_Data/wc_*.txt
+src/Application/js/API.min.js
+syntax: regexp
+src/packages/(?!repositories\.config)

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<WebClientServices>
+  <!-- url values must be xml encoded. -->
+
+  <!--WMS-->
+  <WebClientService name="World - DEMIS World Map" url="http://www2.demis.nl/wms/wms.ashx?WMS=WorldMap" type="WMS"/>
+  <!--WebClientService name="World - NASA JPL OneEarth" url="http://wms.jpl.nasa.gov/wms.cgi" type="WMS"/-->
+  <WebClientService name="World - NEO NASA World Obserations" url="http://neowms.sci.gsfc.nasa.gov/wms/wms" type="WMS"/>
+  <WebClientService name="Poland - Administrative Map" url="http://mapy.geoportal.gov.pl/wss/service/img/guest/Administracyjna/MapServer/WMSServer" type="WMS" />
+  <WebClientService name="Poland - Cadastral data" url="http://mapy.geoportal.gov.pl/wss/service/pub/guest/G2_GO_WMS/MapServer/WMSServer" type="WMS" />
+  <WebClientService name="Poland - Map of Landscapes" url="http://mapy.geoportal.gov.pl/wss/service/img/guest/Krajobrazowa/MapServer/WMSServer" type="WMS" />
+  <WebClientService name="Poland - Hydrological Map" url="http://mapy.geoportal.gov.pl/wss/service/img/guest/HYDRO/MapServer/WMSServer" type="WMS" />
+  <WebClientService name="Poland - Topographic Map" url="http://mapy.geoportal.gov.pl/wss/service/pub/guest/kompozycjaG2_BDO_WMS/MapServer/WMSServer" type="WMS" />
+  <WebClientService name="Poland - Raster Topographic Map" url="http://mapy.geoportal.gov.pl/wss/service/img/guest/TOPO/MapServer/WMSServer" type="WMS" />
+  <WebClientService name="Poland - Overall Geographic Map" url="http://mapy.geoportal.gov.pl/wss/service/img/guest/Ogolnogeograficzna/MapServer/WMSServer" type="WMS" />  
+  <WebClientService name="Poland - Orthophoto Map" url="http://mapy.geoportal.gov.pl/wss/service/img/guest/ORTO/MapServer/WMSServer" type="WMS" />
+  <WebClientService name="Poland - National Administrative Units Registry" url="http://mapy.geoportal.gov.pl/wss/service/PZGIKINSP/guest/services/G2_PRGJT_WMS/MapServer/WMSServer" type="WMS" />
+  <WebClientService name="Poland - DTM" url="http://mapy.geoportal.gov.pl/wss/service/wmsimg/guest/ISOK_HipsoDyn/ImageServer/WMSServer" type="WMS" />
+  <WebClientService name="Poland - DTM Shadowing" url="http://mapy.geoportal.gov.pl/wss/service/img/guest/CIEN/MapServer/WMSServer" type="WMS" />
+  <WebClientService name="Poland - The General Directorate for Environment Protection" url="http://wms.gdos.gov.pl/geoserver/wms" type="WMS" />  
+  <WebClientService name="Poland, Lodz - Cadastral data" url="http://gis.mapa.lodz.pl/awiskts/services/WMS_publikowane/LODZ/mapserver/WMSServer" type="WMS" />
+  
+  <WebClientService name="Germany - Level of the federal waterways" url="http://www.pegelonline.wsv.de/webservices/gis/wms" type="WMS"/>
+
+  <WebClientService name="Italy - Administrative boundaries" url="http://sgi1.isprambiente.it/ArcGIS/services/servizi/limiti_amministrativi/mapserver/WMSServer" type="WMS"/>
+  <WebClientService name="Italy - Geology at the scale 1:500 000" url="http://sgi1.isprambiente.it/ArcGIS/services/servizi/geologia500k/mapserver/WMSServer" type="WMS"/>
+  <WebClientService name="Italy - Geology at the scale 1:100 000" url="http://sgi1.isprambiente.it/ArcGIS/services/servizi/geologia100k/mapserver/WMSServer" type="WMS"/>
+  <WebClientService name="Italy - Geology at the scale 1:50 000 (CARG)" url="http://sgi1.isprambiente.it/ArcGIS/services/servizi/geologia25k/mapserver/WMSServer" type="WMS"/>
+  <WebClientService name="Italy - Geomorphology at the scale 1:50.000" url="http://sgi1.isprambiente.it/ArcGIS/services/servizi/geomorfologia25k/mapserver/WMSServer" type="WMS"/>
+ 
+  <WebClientService name="Portugal - Forest fire risk" url="http://mapas.igeo.pt/wms/crif" type="WMS"/>
+  <WebClientService name="Portugal - Map of Portugal - scale 1:500 000" url="http://mapas.igeo.pt/wms/sc500k" type="WMS"/>
+  <WebClientService name="Portugal - Digital Terrain Model" url="http://mapas.igeo.pt/wms/mdt50m" type="WMS"/>
+  
+  <WebClientService name="Spain - Base Map" url="http://www.ign.es/wms-inspire/ign-base" type="WMS" />
+  <WebClientService name="Spain - CartoCiudad INSPIRE" url="http://www.cartociudad.es/wms-inspire/CARTOCIUDAD/CARTOCIUDAD" type="WMS" />
+  <WebClientService name="Spain - Seismic and volcanic Information" url="http://www.ign.es/wms-inspire/geofisica" type="WMS" />
+  <WebClientService name="Spain - Orthophotos PNOA" url="http://www.ign.es/wms-inspire/pnoa-ma" type="WMS" />
+  <WebClientService name="Spain - Administrative Units" url="http://www.ign.es/wms-inspire/unidades-administrativas" type="WMS" />
+  <WebClientService name="Spain - Cadastre" url="http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx" type="WMS" />
+  <WebClientService name="Spain - Climate of Iberian Peninsula" url="http://www.opengis.uab.es/cgi-bin/iberia/MiraMon5_0.cgi" type="WMS" />
+  <WebClientService name="Spain - EUROPARC" url="http://www.opengis.uab.es/cgi-bin/europarc/MiraMon5_0.cgi" type="WMS" />
+  <WebClientService name="Spain - Map Guide SIGNA" url="http://signa.ign.es/SIGNAOGC/wms_MapaGuia/request.aspx" type="WMS" />
+
+  <WebClientService name="Spain - Maps and Orthophotos from Catalonia ICC" url="http://shagrat.icc.es/lizardtech/iserv/ows" type="WMS" />
+  <WebClientService name="Spain - Cartographic of Asturias (SITPA)" url="http://sitpa-servicios.cartografia.asturias.es/WMS_CARTOGRAFIA/Request.aspx" type="WMS" />
+  <WebClientService name="Spain - Cartographic of Galicia (IDEG)" url="http://ideg.xunta.es/wms/request.aspx" type="WMS" />
+
+  <WebClientService name="World by night" url="http://www.opengis.uab.es/cgi-bin/world/MiraMon5_0.cgi" type="WMS"/>
+
+  <WebClientService name="WMS Time" url="http://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r-t.cgi" type="WMS"/>
+
+  <!--CSW-->
+  <WebClientService name="Polish Metadata Catalogue" url="http://mapy.geoportal.gov.pl/wss/service/CSW/guest/CSWStartup" type="CSW"/>
+  <WebClientService name="INSPIRE Metadata Catalogue" url="http://mapy.geoportal.gov.pl/wss/service/CSWINSP/guest/CSWStartup" type="CSW"/>
+  <WebClientService name="Spain - Instituto Geográfico Nacional Catalog" url="http://www.ign.es/csw-inspire/srv/es/csw" type="CSW"/>
+
+  <!--MPS-->
+
+  <!--WFSG-->
+  <WebClientService name="GeoNames" url="http://demo.hexagongeospatial.com/WFSG_GEONAMES/Service.svc/get" type="WFSG"/>
+
+  <!--WFS-->
+  <WebClientService name="Spain - Base Cartographic of Navarra" url="http://idena.navarra.es/ogc/wfs" type="WFS" />
+
+  <!--GeoRSS-->
+  <WebClientService name="Recent World Earthquakes" url="http://www.bgs.ac.uk/feeds/SchoolSeismology.xml" type="GeoRSS"/>
+  <WebClientService name="Weekly Volcanic Activity" url="http://www.volcano.si.edu/news/WeeklyVolcanoRSS.xml" type="GeoRSS"/>
+  <WebClientService name="Storm Tracker" url="http://datacasting.jpl.nasa.gov/storm-tracker/storm-tracker-datacasting.xml" type="GeoRSS"/>
+  <WebClientService name="USGS Earthquakes" url="http://earthquake.usgs.gov/earthquakes/shakemap/rss.xml" type="GeoRSS"/>
+  <WebClientService name="Tsunami Warnings - Pacific Ocean" url="http://ptwc.weather.gov/feeds/ptwc_rss_pacific.xml" type="GeoRSS"/>
+  <WebClientService name="Tsunami Warnings - Hawaii" url="http://ptwc.weather.gov/feeds/ptwc_rss_hawaii.xml" type="GeoRSS"/>
+  <WebClientService name="Tsunami Warnings - Caribbean Sea" url="http://ptwc.weather.gov/feeds/ptwc_rss_caribe.xml" type="GeoRSS"/>
+  <WebClientService name="Flickr.com uploads" url="http://api.flickr.com/services/feeds/geo/?tags=ufo&amp;lang=en-us&amp;format=rss_200" type="GeoRSS"/>
+
+  <!--WMTS-->
+  <WebClientService name="POLAND Orthophoto Map" url="http://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/ORTO" type="WMTS"/>
+  <WebClientService name="POLAND Topographic Map" url="http://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/TOPO" type="WMTS"/>
+  <WebClientService name="Poland - National Administrative Units Registry" url="http://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/G2_INSPIRE_AU" type="WMTS"/>
+  <WebClientService name="Apollo WMTS demo" url="http://demo-apollo.hexagongeospatial.com/erdas-iws/ogc/wmts" type="WMTS"/>
+  <WebClientService name="Spain - Base Map" url="http://www.ign.es/wmts/ign-base" type="WMTS" />
+  <WebClientService name="Spain - Orthophotos" url="http://www.ign.es/wmts/ot/wmtsservice.aspx" type="WMTS" />
+
+  <!--APOLLO Catalog-->
+  <WebClientService name="APOLLO Catalog" url="https://demo-apollo.hexagongeospatial.com" type="Apollo"/>
+
+  <!--APOLLO Essentials-->
+  <WebClientService name="APOLLO Essentials" url="http://demo-apollo.hexagongeospatial.com" type="IWS"/>
+
+</WebClientServices>

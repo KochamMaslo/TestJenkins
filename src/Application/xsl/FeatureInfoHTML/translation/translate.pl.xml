@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lang id="POLISH">
+	<Locality>Miejscowość (NazwaPodmiotu)</Locality>
+	<Name>Nazwa</Name>
+	<Language>Język</Language>
+	<Class>Klasa</Class>
+	<Status>Stan</Status>
+	<Source>Źródło</Source>
+	<Classification>Klasyfikacja (TypJednostki)</Classification>
+	<Type>Typ</Type>
+	<Catalogue>Katalog</Catalogue>
+	<SpatialPosition>Położenie przestrzenne (PołożeniePrzestrzenne)</SpatialPosition>
+	<Geometry>Geometria</Geometry>
+	<AdministrativeLocation>Położenie administracyjne (WładzeLokalne)</AdministrativeLocation>
+	<AutonomousRegion>Region autonomiczny</AutonomousRegion>
+	<Province>Prowincja</Province>
+	<IdentificationViaCode>Identifikacja za pomocą kodu (Kodyfikacja)</IdentificationViaCode>
+	<Code>Kod</Code>
+	<CodingSystem>System kodowania</CodingSystem>
+	<LocationByMap>Położenie na mapie (Mapa)</LocationByMap>
+	<MapSeries>Seria kartograficzna</MapSeries>
+	<MapSheet>Arkusz mapy</MapSheet>
+</lang>

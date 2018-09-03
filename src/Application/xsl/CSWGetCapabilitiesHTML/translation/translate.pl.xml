@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lang id="POLISH">
+	<ServiceInformation>INFORMACJA O USŁUDZE</ServiceInformation>
+	<ServiceType>Typ usługi</ServiceType>
+	<ServiceVersion>Wersja usługi</ServiceVersion>
+	<ServiceProvider>Dostawca usługi</ServiceProvider>
+	<ProviderName>Nazwa dostawcy</ProviderName>
+	<NoAvailableData>Brak dostępnych danych</NoAvailableData>
+	<ProvidersSite>Strona dostawcy</ProvidersSite>
+	<ContactInformation>Informacje kontaktowe</ContactInformation>
+	<IndividualName>Nazwa własna</IndividualName>
+	<Phone>Telefon</Phone>
+	<Address>Adres</Address>
+	<EmailContact>Kontakt e-mail</EmailContact>
+	<MetadataSection>SEKCJA METADANYCH</MetadataSection>
+	<Name>Nazwa</Name>
+	<Link>Link</Link>
+	<AcceptedVersion>Akceptowana wersja</AcceptedVersion>
+	<AcceptedFormat>Akceptowany format</AcceptedFormat>
+	<OutputFormat>Format wyjścia</OutputFormat>
+	<CoordinateSystem>Układ współrzędnych</CoordinateSystem>
+	<FeatureTypeList>LISTA TYPÓW OBIEKTÓW</FeatureTypeList>
+	<Operation>Operacja</Operation>
+	<Title>Tytuł</Title>
+	<DefaultSrs>Domyślny układ współrzędnych</DefaultSrs>
+	<OtherSrs>Inny układ współrzędnych</OtherSrs>
+	<OtherCrs>Inny układ współrzędnych</OtherCrs>
+	<Wgs84Bbox>WGS84 BBOX</Wgs84Bbox>
+	<LowerCorner>Lower Corner</LowerCorner>
+	<UpperCorner>Upper Corner</UpperCorner>
+	<FilterCapabilities>WŁAŚCIWOŚCI FILTRA</FilterCapabilities>
+	<GeometryOperands>Operandy geometryczne</GeometryOperands>
+	<SpatialOperators>Operatory przestrzenne</SpatialOperators>
+	<ComparisonOperators>Operatory porównania</ComparisonOperators>
+</lang>

@@ -1,0 +1,214 @@
+html,body#simple,body#simple form
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.x-viewport body.ext-ie7 form#form1
+{
+	height: 100%;
+}
+
+div.buttons
+{
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+
+.notification-area
+{
+    position: absolute;
+    top: 35px;
+    right: 5px;
+    z-index: 1000000;
+}
+
+.notification-header
+{
+    margin: 2px;
+    padding: 1px;
+    font-family: Verdana, Sans-Serif;
+    font-size: 10pt;
+    display: inline;
+}
+
+.notification
+{
+    width: 400px;
+    background: #dfecfd;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    border: solid 1px #99BBE8;
+    -moz-opacity:.80; filter:alpha(opacity=80); opacity:.80; 
+    color: #274068;
+    font-family: Verdana, Sans-Serif;
+    font-size: 10pt;
+}
+
+.notification-header i
+{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent left center no-repeat;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.notification-header i.notification-error
+{
+    background-image: url(../../img/notification-error.png);
+}
+
+.notification-header i.notification-info
+{
+    background-image: url(../../img/notification-info.png);
+}
+
+.notification-header i.notification-warning
+{
+    background-image: url(../../img/notification-warning.png);
+}
+
+.notification-header span
+{
+    line-height: 16px;    
+    display: none;
+}
+
+.notification-header a
+{
+    text-align: right;
+    font-size: smaller;
+    float: right;
+    text-decoration: none;
+    color: #274068;
+    margin-top: 4px;
+}
+
+.notification-body
+{
+    text-align: left;
+    padding: 2px;
+    display: inline;
+}
+
+.notification-footer
+{
+    text-align: right;
+    font-size: smaller;
+    display: inline;
+    float: right;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+div.map
+{
+    height: 100%;
+}
+
+div.map_container
+{
+	height: 0;
+}
+
+div#tools
+{
+    position: absolute;
+    top: 0;
+    left: 0;        
+    margin: 4px;
+    width: 50px;
+}
+
+div#tools button
+{
+margin:6px;
+padding:0px;
+line-height:0px;
+border:none;
+background:none;
+}
+
+.tool
+{
+    width: 36px;
+    height: 36px;
+;
+}    
+
+.tool i 
+{
+    background-image: url(../../img/tools-n-mobile.gif);
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 0px;
+}
+
+.tool:active
+{
+    border-style: inset;
+}
+
+.tool_pressed
+{
+    border-style: inset;
+}
+
+.tool_loading i
+{
+    background-image: url(../../img/ajax-loader.gif);    
+}
+
+.tool_zoom_in i
+{
+    background-position: 0 0;
+}
+.tool_zoom_out i
+{
+    background-position: -36px 0;
+}
+.tool_zoom_rect i
+{
+    background-position: -72px 0;
+}
+.tool_fit_all i
+{
+    background-position: -108px 0;
+}
+.tool_feature_info i
+{
+    background-position: -144px 0;
+}
+.tool_where_am_i i
+{
+    background-position: -180px 0;
+}
+
+.wc_feature_info_button_ok
+{
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    margin: 3px;
+    -webkit-appearance: none;
+    background: #ccc;
+    border-style: outset;
+    border: 3px;
+    border-style: outset;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px; /* future proofing */   
+    filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity: 0.7;
+}
+
+.wc_feature_info_button_ok:active, .wc_feature_info_button_ok:hover
+{
+    border-style: inset;
+}

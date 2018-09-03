@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.intergraph.geospatial.portal</groupId>
+  <artifactId>application-template</artifactId>
+  <version>16.5.0105</version>
+  <packaging>pom</packaging>
+
+  <parent>
+    <groupId>com.intergraph.geospatial.portal</groupId>
+    <artifactId>common-pom</artifactId>
+    <version>15.4.1</version>
+
+    <!-- It depends on directory layout OUTSIDE of the working directory. -->
+    <relativePath>../../common-pom/parent-pom.xml</relativePath>
+  </parent>
+
+  <name>Geospatial Portal Template</name>
+
+  <properties>
+    <SatelliteAssembliesVersion>13.0.0.1208</SatelliteAssembliesVersion>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.intergraph.geospatial.portal</groupId>
+      <artifactId>build-utilities</artifactId>
+      <version>15.3.0</version>
+      <classifier>main</classifier>
+      <type>zip</type>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.intergraph.geospatial.portal</groupId>
+      <artifactId>core</artifactId>
+      <version>16.5.28</version>
+      <classifier>main</classifier>
+      <type>zip</type>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+	<dependency>
+      <groupId>com.intergraph.common</groupId>
+      <artifactId>mmap-sdk-wrapper</artifactId>
+      <version>2017.11.45318</version>
+	  <classifier>main</classifier>
+      <type>zip</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.intergraph.geospatial.portal</groupId>
+      <artifactId>language-assemblies</artifactId>
+      <version>14.2.2</version>
+      <classifier>main</classifier>
+      <type>zip</type>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+	  <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.7</version>
+        <executions>
+          <execution>
+            <id>copy-resources</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/../src/Application/js/myvr</outputDirectory>
+              <resources>          
+                <resource>
+                  <directory>${basedir}/../lib/mmap-sdk-wrapper-main-zip</directory>
+                </resource>
+              </resources> 
+	       <overwrite>true</overwrite>
+            </configuration>            
+          </execution>
+        </executions>
+      </plugin>
+	
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.2.1</version>
+        <configuration>
+          <executable>${MSBuildExecutable}</executable>
+        </configuration>
+        <executions>
+
+          <execution>
+            <id>package</id>
+            <phase>prepare-package</phase>
+            <configuration>
+              <arguments>
+                <argument>build.msbuild</argument>
+                <argument>/t:Package</argument>
+                <argument>/p:Configuration=${MSBuildProjectConfiguration};Platform=${MSBuildProjectPlatform}</argument>
+              </arguments>
+            </configuration>
+            <goals>
+              <goal>exec</goal>
+            </goals>
+          </execution>
+
+        </executions>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>2.4</version>
+        <executions>
+
+          <execution>
+            <id>package-msdeploy-package</id>
+            <phase>package</phase>
+            <configuration>
+              <outputDirectory>${project.basedir}/artifacts/</outputDirectory>
+              <descriptors>
+                <descriptor>msdeploy-package.xml</descriptor>
+              </descriptors>
+            </configuration>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>package-packages-with-all-externals</id>
+            <phase>package</phase>
+            <configuration>
+              <outputDirectory>${project.basedir}/artifacts/</outputDirectory>
+              <descriptors>
+                <descriptor>very-full-package.xml</descriptor>
+                <descriptor>admin-portal-package.xml</descriptor>
+                <descriptor>app-ess-portal-package.xml</descriptor>
+                <descriptor>web-pub-portal-package.xml</descriptor>
+              </descriptors>
+            </configuration>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+
+        </executions>
+      </plugin>
+
+    </plugins>
+  </build>
+
+</project>

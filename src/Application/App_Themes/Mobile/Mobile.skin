@@ -1,0 +1,8 @@
+﻿<wc_core:MapStateSwitcherLightControl runat="server"
+    CssClass="buttons" ButtonMinWidth="100" />
+    
+<wc_core:ImmediateNotificationControl runat="server"
+    CssClass="notification-area" />
+
+<wc_core:MapControlContainer runat="server"
+    CssClass="map" HorizontalAnchor="Left" VerticalAnchor="Top"/>    

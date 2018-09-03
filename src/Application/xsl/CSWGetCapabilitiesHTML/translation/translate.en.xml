@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lang id="ENGLISH">
+	<ServiceInformation>SERVICE INFORMATION</ServiceInformation>
+	<ServiceType>Service Type</ServiceType>
+	<ServiceVersion>Service version</ServiceVersion>
+	<ServiceProvider>SERVICE PROVIDER</ServiceProvider>
+	<ProviderName>Provider name</ProviderName>
+	<NoAvailableData>No available data</NoAvailableData>
+	<ProvidersSite>Provider's Site</ProvidersSite>
+	<ContactInformation>Contact information</ContactInformation>
+	<IndividualName>Individual Name</IndividualName>
+	<Phone>Phone</Phone>
+	<Address>Address</Address>
+	<EmailContact>E-mail contact</EmailContact>
+	<MetadataSection>METADATA SECTION</MetadataSection>
+	<Name>Name</Name>
+	<Link>Link</Link>
+	<AcceptedVersion>Accepted version</AcceptedVersion>
+	<AcceptedFormat>Accepted format</AcceptedFormat>
+	<OutputFormat>Output format</OutputFormat>
+	<CoordinateSystem>Coordinate system</CoordinateSystem>
+	<FeatureTypeList>FEATURE TYPE LIST</FeatureTypeList>
+	<Operation>Operation</Operation>
+	<Title>Title</Title>
+	<DefaultSrs>Default SRS</DefaultSrs>
+	<OtherSrs>Other SRS</OtherSrs>
+	<OtherCrs>Other CRS</OtherCrs>
+	<Wgs84Bbox>WGS84 BBOX</Wgs84Bbox>
+	<LowerCorner>Lower Corner</LowerCorner>
+	<UpperCorner>Upper Corner</UpperCorner>
+	<FilterCapabilities>FILTER CAPABILITIES</FilterCapabilities>
+	<GeometryOperands>Geometry operands</GeometryOperands>
+	<SpatialOperators>Spatial operators</SpatialOperators>
+	<ComparisonOperators>Comparison operators</ComparisonOperators>
+</lang>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lang id="POLISH">
+	<Details>Szczegóły</Details>
+	<FeatureId>ID obiektu</FeatureId>
+	<AlternativeIdentifier>Alternatywny identyfikator</AlternativeIdentifier>
+	<GeographicExtent>Zasięg geograficzny</GeographicExtent>
+	<LocationType>Typ lokacji</LocationType>
+	<Geometry>Geometria</Geometry>
+	<SrsName>Nazwa układu współrzędnych</SrsName>
+	<Coordinates>Współrzędne</Coordinates>
+</lang>

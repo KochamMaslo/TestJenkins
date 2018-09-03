@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lang id="ENGLISH">
+	<Locality>Locality (EntityName)</Locality>
+	<Name>Name</Name>
+	<Language>Language</Language>
+	<Class>Class</Class>
+	<Status>Status</Status>
+	<Source>Source</Source>
+	<Classification>Classification (EntityType)</Classification>
+	<Type>Type</Type>
+	<Catalogue>Catalogue</Catalogue>
+	<SpatialPosition>Spatial position (SpatialPosition)</SpatialPosition>
+	<Geometry>Geometry</Geometry>
+	<AdministrativeLocation>Administrative location (LocalAuthority)</AdministrativeLocation>
+	<AutonomousRegion>Autonomous region</AutonomousRegion>
+	<Province>Province</Province>
+	<IdentificationViaCode>Identification via code (Coding)</IdentificationViaCode>
+	<Code>Code</Code>
+	<CodingSystem>Coding system</CodingSystem>
+	<LocationByMap>Location by map (Map)</LocationByMap>
+	<MapSeries>Map series</MapSeries>
+	<MapSheet>Map sheet</MapSheet>
+</lang>

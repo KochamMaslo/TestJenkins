@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lang id="ENGLISH">
+	<MetadataInformation>Metadata information</MetadataInformation>
+	<FileIdentifier>File identifier</FileIdentifier>
+	<MetadataLanguage>Metadata language</MetadataLanguage>
+	<MetadataCharacterSet>Metadata character set</MetadataCharacterSet>
+	<ParentIdentifier>Parent identifier</ParentIdentifier>
+	<HierarchyLevel>Hierarchy level</HierarchyLevel>
+	<MD_ScopeCode_attribute>attribute</MD_ScopeCode_attribute>
+	<MD_ScopeCode_attributeType>attribute type</MD_ScopeCode_attributeType>
+	<MD_ScopeCode_collectionHardware>collection hardware</MD_ScopeCode_collectionHardware>
+	<MD_ScopeCode_collectionSession>collection session</MD_ScopeCode_collectionSession>
+	<MD_ScopeCode_dataset>dataset</MD_ScopeCode_dataset>
+	<MD_ScopeCode_series>series</MD_ScopeCode_series>
+	<MD_ScopeCode_nonGeographicDataset>non geographic dataset</MD_ScopeCode_nonGeographicDataset>
+	<MD_ScopeCode_dimensionGroup>dimension group</MD_ScopeCode_dimensionGroup>
+	<MD_ScopeCode_feature>feature</MD_ScopeCode_feature>
+	<MD_ScopeCode_featureType>feature type</MD_ScopeCode_featureType>
+	<MD_ScopeCode_propertyType>property type</MD_ScopeCode_propertyType>
+	<MD_ScopeCode_fieldSession>field session</MD_ScopeCode_fieldSession>
+	<MD_ScopeCode_software>software</MD_ScopeCode_software>
+	<MD_ScopeCode_service>service</MD_ScopeCode_service>
+	<MD_ScopeCode_model>model</MD_ScopeCode_model>
+	<MD_ScopeCode_tile>tile</MD_ScopeCode_tile>
+	<HierarchyLevelName>Hierarchy level name</HierarchyLevelName>
+	<MetadataPointOfContact>Metadata point of contact</MetadataPointOfContact>
+	<PointOfContact_OrganizationName>Organization name</PointOfContact_OrganizationName>
+	<PointOfContact_IndividualName>Individual name</PointOfContact_IndividualName>
+	<PointOfContact_PositionName>Position name</PointOfContact_PositionName>
+	<InformationAboutContact>Information about contact</InformationAboutContact>
+	<Phone>Phone</Phone>
+	<Address>Address (location of the responsible individual or organization)</Address>
+	<DeliveryPoint>Delivery point</DeliveryPoint>
+	<City>City</City>
+	<AdministrativeArea>Administrative area</AdministrativeArea>
+	<PostalCode>Postal code</PostalCode>
+	<Country>Country</Country>
+	<ElectronicMailAddress>Electronic mail address</ElectronicMailAddress>
+	<OnlineResource>Online resource (URL)</OnlineResource>
+	<Role>Role</Role>
+	<CI_RoleCode_resourceProvider>resource provider</CI_RoleCode_resourceProvider>
+	<CI_RoleCode_custodian>custodian</CI_RoleCode_custodian>
+	<CI_RoleCode_owner>owner</CI_RoleCode_owner>
+	<CI_RoleCode_user>user</CI_RoleCode_user>
+	<CI_RoleCode_distributor>distributor</CI_RoleCode_distributor>
+	<CI_RoleCode_originator>originator</CI_RoleCode_originator>
+	<CI_RoleCode_pointOfContact>point of contact</CI_RoleCode_pointOfContact>
+	<CI_RoleCode_principalInvestigator>principal investigator</CI_RoleCode_principalInvestigator>
+	<CI_RoleCode_processor>processor</CI_RoleCode_processor>
+	<CI_RoleCode_publisher>publisher</CI_RoleCode_publisher>
+	<CI_RoleCode_author>author</CI_RoleCode_author>
+	<MetadataDate>Metadata date</MetadataDate>
+	<MetadataStandardName>Metadata standard name</MetadataStandardName>
+	<MetadataStandardVersion>Metadata standard version</MetadataStandardVersion>
+	<ReferenceSystemInformation>Reference system information</ReferenceSystemInformation>
+	<ReferenceSystemIdentifier>Reference system identifier</ReferenceSystemIdentifier>
+	<ReferenceSystem_code>code</ReferenceSystem_code>
+	<ReferenceSystem_codeSpace>code space</ReferenceSystem_codeSpace>
+	<Projection>projection</Projection>
+	<Ellipspoid>ellipsoid</Ellipspoid>
+	<Datum>datum</Datum>
+	<IdentificationInformation>Identification information</IdentificationInformation>
+	<Citation>Citation</Citation>
+	<Title>Title</Title>
+	<AlternateTitle>Alternate title</AlternateTitle>
+	<Date>date</Date>
+	<TypeOfDate>type of date</TypeOfDate>
+	<MD_DateTypeCode_creation>creation</MD_DateTypeCode_creation>
+	<MD_DateTypeCode_publication>publication</MD_DateTypeCode_publication>
+	<MD_DateTypeCode_revision>revision</MD_DateTypeCode_revision>
+	<ResourceIdentifier>Resource identifier</ResourceIdentifier>
+	<Authority>authority</Authority>
+	<PartyResponsibleForTheResource>Party responsible for the resource</PartyResponsibleForTheResource>
+	<Abstract>Abstract</Abstract>
+	<Purpose>Purpose</Purpose>
+	<StatusOfTheDataset>Status of the dataset</StatusOfTheDataset>
+	<MD_StatusCode_completed>completed</MD_StatusCode_completed>
+	<MD_StatusCode_historicalArchive>historical archive</MD_StatusCode_historicalArchive>
+	<MD_StatusCode_obsolete>obsolete</MD_StatusCode_obsolete>
+	<MD_StatusCode_onGoing>on going</MD_StatusCode_onGoing>
+	<MD_StatusCode_planned>planned</MD_StatusCode_planned>
+	<MD_StatusCode_required>required</MD_StatusCode_required>
+	<MD_StatusCode_underDevelopment>under development</MD_StatusCode_underDevelopment>
+	<PointOfContact>Point of contact</PointOfContact>
+	<InformationAboutFrequency>Information about the frequency of resource updates and the scope of those updates</InformationAboutFrequency>
+	<MaintenanceAndUpdateFrequency>Maintenance and update frequency information</MaintenanceAndUpdateFrequency>
+	<MD_MaintenanceFrequencyCode_continual>continual</MD_MaintenanceFrequencyCode_continual>
+	<MD_MaintenanceFrequencyCode_daily>daily</MD_MaintenanceFrequencyCode_daily>
+	<MD_MaintenanceFrequencyCode_weekly>weekly</MD_MaintenanceFrequencyCode_weekly>
+	<MD_MaintenanceFrequencyCode_fotnightly>fortnightly</MD_MaintenanceFrequencyCode_fotnightly>
+	<MD_MaintenanceFrequencyCode_monthly>monthly</MD_MaintenanceFrequencyCode_monthly>
+	<MD_MaintenanceFrequencyCode_quarterly>quarterly</MD_MaintenanceFrequencyCode_quarterly>
+	<MD_MaintenanceFrequencyCode_biannually>biannually</MD_MaintenanceFrequencyCode_biannually>
+	<MD_MaintenanceFrequencyCode_annually>annually</MD_MaintenanceFrequencyCode_annually>
+	<MD_MaintenanceFrequencyCode_asNeeded>as needed</MD_MaintenanceFrequencyCode_asNeeded>
+	<MD_MaintenanceFrequencyCode_irregular>irregular</MD_MaintenanceFrequencyCode_irregular>
+	<MD_MaintenanceFrequencyCode_notPlanned>not planned</MD_MaintenanceFrequencyCode_notPlanned>
+	<MD_MaintenanceFrequencyCode_unknown>unknown</MD_MaintenanceFrequencyCode_unknown>
+	<ScopeOfData>Scope of data</ScopeOfData>
+	<DescriptiveKeywords>Descriptive keywords</DescriptiveKeywords>
+	<Keywords>keywords</Keywords>
+	<TypeOfKeywords>type of keywords</TypeOfKeywords>
+	<MD_KeywordTypeCode_discipline>discipline</MD_KeywordTypeCode_discipline>
+	<MD_KeywordTypeCode_place>place</MD_KeywordTypeCode_place>
+	<MD_KeywordTypeCode_stratum>stratum</MD_KeywordTypeCode_stratum>
+	<MD_KeywordTypeCode_temporal>temporal</MD_KeywordTypeCode_temporal>
+	<MD_KeywordTypeCode_theme>theme</MD_KeywordTypeCode_theme>
+	<ThesaurusName>thesaurus name</ThesaurusName>
+	<ResourceConstraints>resource constraints</ResourceConstraints>
+	<UseLimitation>use limitation</UseLimitation>
+	<AccessConstraints>access contraints</AccessConstraints>
+	<MD_RestrictionCode_copyright>copyright</MD_RestrictionCode_copyright>
+	<MD_RestrictionCode_patent>patent</MD_RestrictionCode_patent>
+	<MD_RestrictionCode_patentPending>patent pending</MD_RestrictionCode_patentPending>
+	<MD_RestrictionCode_trademark>trademark</MD_RestrictionCode_trademark>
+	<MD_RestrictionCode_license>license</MD_RestrictionCode_license>
+	<MD_RestrictionCode_intellectualPropertyRights>intellectual property rights</MD_RestrictionCode_intellectualPropertyRights>
+	<MD_RestrictionCode_restricted>restricted</MD_RestrictionCode_restricted>
+	<MD_RestrictionCode_otherRestrictions>other restrictions</MD_RestrictionCode_otherRestrictions>
+	<UseContraints>use contraints</UseContraints>
+	<OtherConstraints>other constraints</OtherConstraints>
+	<Classification>classification</Classification>
+	<MD_ClassificationCode_unclassified>unclassified</MD_ClassificationCode_unclassified>
+	<MD_ClassificationCode_restricted>restricted</MD_ClassificationCode_restricted>
+	<MD_ClassificationCode_confidental>confidential</MD_ClassificationCode_confidental>
+	<MD_ClassificationCode_secret>secret</MD_ClassificationCode_secret>
+	<MD_ClassificationCode_topSecret>top secret</MD_ClassificationCode_topSecret>
+	<SpatialRepresentationType>Method used to represent geographic information (spatial representation type)</SpatialRepresentationType>
+	<MD_SpatialRepresentationTypeCode_vector>vector</MD_SpatialRepresentationTypeCode_vector>
+	<MD_SpatialRepresentationTypeCode_grid>grid</MD_SpatialRepresentationTypeCode_grid>
+	<MD_SpatialRepresentationTypeCode_textTable>text table</MD_SpatialRepresentationTypeCode_textTable>
+	<MD_SpatialRepresentationTypeCode_tin>tin</MD_SpatialRepresentationTypeCode_tin>
+	<MD_SpatialRepresentationTypeCode_stereoModel>stereo model</MD_SpatialRepresentationTypeCode_stereoModel>
+	<MD_SpatialRepresentationTypeCode_video>video</MD_SpatialRepresentationTypeCode_video>
+	<SpatialResolution>spatial resolution</SpatialResolution>
+	<Distance>distance</Distance>
+	<EquivalentScale>equivalent scale</EquivalentScale>
+	<ResourceLanguage>Resource language</ResourceLanguage>
+	<ResourceCharacterSet>Resource character set</ResourceCharacterSet>
+	<TopicCategory>Topic category</TopicCategory>
+	<MD_TopicCategoryCode_farming>farming</MD_TopicCategoryCode_farming>
+	<MD_TopicCategoryCode_biota>biota</MD_TopicCategoryCode_biota>
+	<MD_TopicCategoryCode_boundaries>boundaries</MD_TopicCategoryCode_boundaries>
+	<MD_TopicCategoryCode_climatologyMeteorologyAtmosphere>climatology, meteorology, atmosphere</MD_TopicCategoryCode_climatologyMeteorologyAtmosphere>
+	<MD_TopicCategoryCode_economy>economy</MD_TopicCategoryCode_economy>
+	<MD_TopicCategoryCode_elevation>elevation</MD_TopicCategoryCode_elevation>
+	<MD_TopicCategoryCode_environment>environment</MD_TopicCategoryCode_environment>
+	<MD_TopicCategoryCode_geoscientificInformation>geoscientific information</MD_TopicCategoryCode_geoscientificInformation>
+	<MD_TopicCategoryCode_health>health</MD_TopicCategoryCode_health>
+	<MD_TopicCategoryCode_imageryBaseMapsEarthCover>imagery Base Maps Earth Cover</MD_TopicCategoryCode_imageryBaseMapsEarthCover>
+	<MD_TopicCategoryCode_intelligenceMilitary>intelligence military</MD_TopicCategoryCode_intelligenceMilitary>
+	<MD_TopicCategoryCode_inlandWaters>inland waters</MD_TopicCategoryCode_inlandWaters>
+	<MD_TopicCategoryCode_location>location</MD_TopicCategoryCode_location>
+	<MD_TopicCategoryCode_oceans>oceans</MD_TopicCategoryCode_oceans>
+	<MD_TopicCategoryCode_planningCadastre>planning cadastre</MD_TopicCategoryCode_planningCadastre>
+	<MD_TopicCategoryCode_society>society</MD_TopicCategoryCode_society>
+	<MD_TopicCategoryCode_structure>structure</MD_TopicCategoryCode_structure>
+	<MD_TopicCategoryCode_transportation>transportation</MD_TopicCategoryCode_transportation>
+	<MD_TopicCategoryCode_utilitiesCommunication>utilities communication</MD_TopicCategoryCode_utilitiesCommunication>
+	<ExtentInformation>Resource extent (Extent information)</ExtentInformation>
+	<GeographicDescription>Geographic description</GeographicDescription>
+	<GeographicBoundingBox>Geographic bounding box (extent)</GeographicBoundingBox>
+	<WestLongitude>West bound longitude</WestLongitude>
+	<EastLongitude>East bound longitude</EastLongitude>
+	<SouthLatitude>South bound latitude</SouthLatitude>
+	<NorthLatitude>North bound latitude</NorthLatitude>
+	<TemporalElement>Temporal element</TemporalElement>
+	<TimePosition>Time position</TimePosition>
+	<BeginDate>Begin date</BeginDate>
+	<EndDate>End date</EndDate>
+	<VerticalElement>vertical element</VerticalElement>
+	<MinimumValue>Minimum value</MinimumValue>
+	<MaximumValue>Maximum value</MaximumValue>
+	<UnitOfMeasure>unit of measure</UnitOfMeasure>
+	<InformationAboutDistribution>Information about distribution</InformationAboutDistribution>
+	<DistributionFormat>Distribution format (Available format)</DistributionFormat>
+	<FormatName>Format name</FormatName>
+	<FormatVersion>Format version</FormatVersion>
+	<InformationAboutDistributor>Information about distributor</InformationAboutDistributor>
+	<DistributorContactInformation>Distributor contact information</DistributorContactInformation>
+	<OrderingProcess>Ordering process</OrderingProcess>
+	<Fees>Fees</Fees>
+	<DistributorFormat>Distributor format</DistributorFormat>
+	<DistributorTransferOptions>Distributor Transfer Options</DistributorTransferOptions>
+	<Linkage>Linkage</Linkage>
+	<DataQualityInformation>Data quality information</DataQualityInformation>
+	<ScopeOfQualityInformation>Scope of quality information</ScopeOfQualityInformation>
+	<LevelOfQualityInformation>Level of quality information</LevelOfQualityInformation>
+	<LevelDescription>Level description</LevelDescription>
+	<Report>Report</Report>
+	<Result>Result</Result>
+	<Specification>Specification</Specification>
+	<SpecificationTitle>Specification title</SpecificationTitle>
+	<Explanation>explanation</Explanation>
+	<Pass>pass</Pass>
+	<Boolean_true>true</Boolean_true>
+	<Boolean_false>false</Boolean_false>
+	<Lineage>lineage</Lineage>
+	<Statement>statement</Statement>
+	<NilReason_template>template</NilReason_template>
+	<NilReason_unknown>unknown</NilReason_unknown>
+	<NilReason_missing>missing</NilReason_missing>
+	<NilReason_innaplicable>innaplicable</NilReason_innaplicable>
+	<NilReason_withheld>withheld</NilReason_withheld>
+	<SpatialDataServiceType>Spatial data service type</SpatialDataServiceType>
+	<SV_ServiceType_discovery>discovery service</SV_ServiceType_discovery>
+	<SV_ServiceType_download>download service</SV_ServiceType_download>
+	<SV_ServiceType_view>view service</SV_ServiceType_view>
+	<VersionOfService>Version of service</VersionOfService>
+	<CoupledResource>Coupled resource</CoupledResource>
+	<CouplingType>Coupling type</CouplingType>
+	<SV_CouplingType_mixed>mixed</SV_CouplingType_mixed>
+	<SV_CouplingType_tight>tight</SV_CouplingType_tight>
+	<SV_CouplingType_loose>loose</SV_CouplingType_loose>
+	<MethodProvidedByService>method provided by the service</MethodProvidedByService>
+	<MethodsName>Method's name</MethodsName>
+	<DCP>Distributed Computing Platforms (DCP)</DCP>
+	<DCPList_XML>XML</DCPList_XML>
+	<DCPList_CORBA>CORBA</DCPList_CORBA>
+	<DCPList_JAVA>JAVA</DCPList_JAVA>
+	<DCPList_COM>COM</DCPList_COM>
+	<DCPList_SQL>SQL</DCPList_SQL>
+	<WebService>web service</WebService>
+	<Parameters>Parameters</Parameters>
+	<Mandatory>mandatory</Mandatory>
+	<Optional>optional</Optional>
+</lang>

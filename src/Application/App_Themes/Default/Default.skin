@@ -1,0 +1,122 @@
+<ext:Panel runat="server"
+    Border="false" />    
+
+<ext:TabPanel runat="server"
+    Border="false" />
+    
+<ext:Window runat="server"
+    Hidden="true" FloatingX="150" FloatingY="150" Width="600" Height="400" />
+
+<ext:Window runat="server" SkinID="NewDataSourceWindow" Cls="mwnt-define-data-source-window"
+    Hidden="true" FloatingX="150" FloatingY="150" Width="600" Height="410" />
+
+<ext:Window runat="server" SkinID="InsertFeatureWindow"
+    Hidden="true" FloatingX="150" FloatingY="150" Width="400" Height="53" />
+
+<ext:Window runat="server" SkinID="InsertFeatureWindowAttributes"
+    Hidden="true" FloatingX="750" FloatingY="90" Width="200" Height="119"/>
+
+<ext:Window runat="server" SkinID="DynamicObjectViewWindow"
+    Hidden="true" FloatingX="150" FloatingY="150" Width="300" Height="282" />
+
+<ext:Panel runat="server" SkinID="Banner"
+    Height="85" Border="false" Cls="banner" />
+    
+<ext:Panel runat="server" SkinID="BannerPPWA"
+    Height="85" Border="false" Cls="banner_ppwa" />
+
+<ext:Panel runat="server" SkinID="Sidebar"
+    Region="West" Width="292" Header="true" Split="true" Collapsible="true" Cls="sidebar" />
+
+<ext:Panel runat="server" SkinID="PwaSidebar"
+    Region="West" Width="292" Header="true" Split="false" Collapsible="true" Cls="sidebar-pwa"/>
+
+<ext:Panel runat="server" SkinID="AdminSidebar"
+    Region="West" Width="320" Header="true" Split="true" Collapsible="true" Cls="sidebar-admin"/>
+    
+<wc_core:DataPanel runat="server" SkinID="DocDataWindow" CategoryControlWidth="287" Cls="docked-data-window"/>
+
+<ext:Panel SkinID="MapWithRibbonMapContainer" Cls="map-with-ribbon-map-container" runat="server" />
+
+<ext:Panel SkinID="MapWithToolbarMapContainer" Cls="map-with-toolbar-map-container" runat="server" />
+
+<ext:Panel runat="server" SkinID="SidebarClass"
+    Cls="sidebar" />
+
+<wc_core:MapStateSwitcherControl runat="server"
+    CssClass="buttons" ButtonMinWidth="100" />
+    
+<wc_core:ImmediateNotificationControl runat="server"
+    CssClass="notification-area" />
+
+<wc_core:DataWindow runat="server"
+    Hidden="true" Width="800" Height="600"
+    FloatingX="30" ReverseFloatingX="true"
+    FloatingY="60" ReverseFloatingY="true" />
+    
+<wc_core:MapControlContainer runat="server"
+    CssClass="map" HorizontalAnchor="None" VerticalAnchor="None"/>    
+    
+<wc_core:PreviewMapWindow runat="server"
+    Hidden="true" Width="200" Height="200"
+    FloatingX="30" ReverseFloatingX="true"
+    FloatingY="60" ReverseFloatingY="true" />
+
+<wc_core:WebBrowser runat="server"
+    Hidden="true" Width="800" Height="600"
+    FloatingX="30" ReverseFloatingX="true"
+    FloatingY="60" ReverseFloatingY="true" />
+    
+<wc_core:SettingsPanel runat="server" cls="settings"/>
+
+<wc_core:View3DPanel runat="server" Cls="view3d"/>
+
+<wc_core:AnalysesControl runat="server" cls="analyses"/>
+
+<ext:Window SkinID="NotificationHistoryWindow" runat="server"
+    Hidden="true" Width="700" Height="250" />
+
+<ext:Window SkinID="InstancesWindow" runat="server"
+    Hidden="true" Width="350" FloatingX="300" FloatingY="100" Height="500" />
+
+<ext:Window SkinID="ScaleBandEditWindow" runat="server"
+    Hidden="true" Width="400" Height="300" FloatingY="150" />
+    
+<ext:Window SkinID="AuthenticationWindow" runat="server"
+    Hidden="true" Width="330" Height="245" FloatingY="150" />
+    
+<ext:Window runat="server" SkinID="UserMapsWindow"
+    Hidden="true" FloatingX="150" FloatingY="150" Width="250" Height="400" />
+    
+<ext:Window runat="server" SkinID="AboutWindow"
+    Hidden="true" FloatingX="150" ReverseFloatingX="true" FloatingY="150" ReverseFloatingY="false" Width="700" Height="470" Resizable="False" />
+	
+<ext:Panel runat="server" SkinID="MapContainer"
+    CssClass="map_container" Cls="mapContainer" />
+    
+<ext:Panel runat="server" SkinID="SearchResult"
+    Region="South" Header="false" Split="true" Collapsible="true" />
+
+<ext:Window runat="server" SkinID="RedliningWindow" Cls="redlining-window"
+    Width="450" Height="52" FloatingY="90" FloatingX="300" Hidden="true" resizable="false"/>
+
+<ext:Window runat="server" SkinID="ContinueGeometryWindow"
+    Width="264" Height="52" FloatingY="90" FloatingX="300" Hidden="true" resizable="false"/>
+
+<ext:Window runat="server" SkinID="SnapWindow"
+    Width="250" Height="150" FloatingY="50" Hidden="true" />
+    
+<wc_core:PrintingWindow runat="server"
+    Width="350" Height="500" Hidden="true" />
+	
+<ext:Window runat="server" SkinID="InsertMarkerAnnotationWindow"
+    Width="420" Height="400" FloatingY="150" Hidden="true" />
+    
+<ext:Window runat="server" SkinID="InsertTextWindow" Cls="insert-text-window"
+    Width="383" Height="54" FloatingY="90" FloatingX="320" Hidden="true" resizable="false"/>
+    
+<ext:Window runat="server" SkinID="SearchPanelInSidebar" 
+    Width="350" Height="550" Hidden="true"/>
+    
+<ext:Window runat="server" SkinID="SimpleQueryWindow"
+    Hidden="true" FloatingX="150" FloatingY="150" Width="300" Height="450" MinWidth="300" MinHeight="450" />

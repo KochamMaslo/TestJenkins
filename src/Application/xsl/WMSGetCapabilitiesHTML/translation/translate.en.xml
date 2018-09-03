@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lang id="ENGLISH">
+	<ServiceName>Service name</ServiceName>
+  <Keywords>Keywords</Keywords>
+  <Abstract>Abstract:</Abstract>
+  <ServiceVersion>Service version</ServiceVersion>
+  <ServiceInformation>SERVICE INFORMATION</ServiceInformation>
+	<ServiceProvider>SERVICE PROVIDER</ServiceProvider>
+  <ContactInformation>Contact person</ContactInformation>
+  <IndividualName>Name</IndividualName>
+	<ProviderName>Provider name</ProviderName>
+  <ContactPosition>Position</ContactPosition>
+  <Phone>Phone</Phone>
+	<Address>Address</Address>
+	<EmailContact>E-mail contact</EmailContact>
+	<MetadataSection>METADATA SECTION</MetadataSection>
+  <Requests>Requests</Requests>
+  <Format>Format</Format>
+  <OnlineResource>Online resource</OnlineResource>
+  <RequestMethod>Request method:</RequestMethod>
+  <Layers>Layers</Layers>
+  <SRS>SRS</SRS>
+  <BoundingBox>Bounding box</BoundingBox>
+  <LayersCount>Layers count</LayersCount>
+</lang>

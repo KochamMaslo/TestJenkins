@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Intergraph.WebSolutions.Core.WebClient.Application.ConfiguratorService"  Factory="Intergraph.WebSolutions.Core.WebClient.Application.ConfiguratorServiceFactory" %>

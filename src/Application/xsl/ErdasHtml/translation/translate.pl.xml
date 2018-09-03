@@ -1,0 +1,1094 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lang id="POLISH">
+  <CI_DateTypeCode_creation>data utworzenia</CI_DateTypeCode_creation>
+  <CI_DateTypeCode_publication>data publikacji</CI_DateTypeCode_publication>
+  <CI_DateTypeCode_revision>data przeglądu (zmiany)</CI_DateTypeCode_revision>
+  <CI_DateTypeCode_expiry>Expiry</CI_DateTypeCode_expiry>
+  <CI_DateTypeCode_lastUpdate>Last Update</CI_DateTypeCode_lastUpdate>
+  <CI_DateTypeCode_lastRevision>Last Revision</CI_DateTypeCode_lastRevision>
+  <CI_DateTypeCode_nextUpdate>Next Update</CI_DateTypeCode_nextUpdate>
+  <CI_DateTypeCode_unavailable>Unavailable</CI_DateTypeCode_unavailable>
+  <CI_DateTypeCode_inForce>In Force</CI_DateTypeCode_inForce>
+  <CI_DateTypeCode_adopted>Adopted</CI_DateTypeCode_adopted>
+  <CI_DateTypeCode_deprecated>Deprecated</CI_DateTypeCode_deprecated>
+  <CI_DateTypeCode_superseded>Superseded</CI_DateTypeCode_superseded>
+  <CI_DateTypeCode_validityBegins>Validity Begins</CI_DateTypeCode_validityBegins>
+  <CI_DateTypeCode_validityExpires>Validity Expires</CI_DateTypeCode_validityExpires>
+  <CI_DateTypeCode_released>Released</CI_DateTypeCode_released>
+  <CI_DateTypeCode_distribution>Distribution</CI_DateTypeCode_distribution>
+  <CI_OnLineFunctionCode_information>Information</CI_OnLineFunctionCode_information>
+  <CI_OnLineFunctionCode_download>Download</CI_OnLineFunctionCode_download>
+  <CI_OnLineFunctionCode_offlineAccess>Offline Access</CI_OnLineFunctionCode_offlineAccess>
+  <CI_OnLineFunctionCode_order>Order</CI_OnLineFunctionCode_order>
+  <CI_OnLineFunctionCode_search>Search</CI_OnLineFunctionCode_search>
+  <CI_OnLineFunctionCode_completeMetadata>Complete Metadata</CI_OnLineFunctionCode_completeMetadata>
+  <CI_OnLineFunctionCode_browseGraphic>Browse Graphic</CI_OnLineFunctionCode_browseGraphic>
+  <CI_OnLineFunctionCode_upload>Upload</CI_OnLineFunctionCode_upload>
+  <CI_OnLineFunctionCode_emailService>Email Service</CI_OnLineFunctionCode_emailService>
+  <CI_OnLineFunctionCode_browsing>Browsing</CI_OnLineFunctionCode_browsing>
+  <CI_OnLineFunctionCode_fileAccess>File Access</CI_OnLineFunctionCode_fileAccess>
+  <CI_PresentationFormCode_documentDigital>Document Digital</CI_PresentationFormCode_documentDigital>
+  <CI_PresentationFormCode_documentHardcopy>Document Hardcopy</CI_PresentationFormCode_documentHardcopy>
+  <CI_PresentationFormCode_imageDigital>Image Digital</CI_PresentationFormCode_imageDigital>
+  <CI_PresentationFormCode_imageHardcopy>Image Hardcopy</CI_PresentationFormCode_imageHardcopy>
+  <CI_PresentationFormCode_mapDigital>Map Digital</CI_PresentationFormCode_mapDigital>
+  <CI_PresentationFormCode_mapHardcopy>Map Hardcopy</CI_PresentationFormCode_mapHardcopy>
+  <CI_PresentationFormCode_modelDigital>Model Digital</CI_PresentationFormCode_modelDigital>
+  <CI_PresentationFormCode_modelHardcopy>Model Hardcopy</CI_PresentationFormCode_modelHardcopy>
+  <CI_PresentationFormCode_profileDigital>Profile Digital</CI_PresentationFormCode_profileDigital>
+  <CI_PresentationFormCode_profileHardcopy>Profile Hardcopy</CI_PresentationFormCode_profileHardcopy>
+  <CI_PresentationFormCode_tableDigital>Table Digital</CI_PresentationFormCode_tableDigital>
+  <CI_PresentationFormCode_tableHardcopy>Table Hardcopy</CI_PresentationFormCode_tableHardcopy>
+  <CI_PresentationFormCode_videoDigital>Video Digital</CI_PresentationFormCode_videoDigital>
+  <CI_PresentationFormCode_videoHardcopy>Video Hardcopy</CI_PresentationFormCode_videoHardcopy>
+  <CI_PresentationFormCode_audioDigital>Audio Digital</CI_PresentationFormCode_audioDigital>
+  <CI_PresentationFormCode_audioHardcopy>Audio Hardcopy</CI_PresentationFormCode_audioHardcopy>
+  <CI_PresentationFormCode_multimediaDigital>Multimedia Digital</CI_PresentationFormCode_multimediaDigital>
+  <CI_PresentationFormCode_multimediaHardcopy>Multimedia Hardcopy</CI_PresentationFormCode_multimediaHardcopy>
+  <CI_PresentationFormCode_physicalSample>Physical Sample</CI_PresentationFormCode_physicalSample>
+  <CI_PresentationFormCode_diagramDigital>Diagram Digital</CI_PresentationFormCode_diagramDigital>
+  <CI_PresentationFormCode_diagramHardcopy>Diagram Hardcopy</CI_PresentationFormCode_diagramHardcopy>
+  <CI_RoleCode_resourceProvider>Resource Provider</CI_RoleCode_resourceProvider>
+  <CI_RoleCode_custodian>Custodian</CI_RoleCode_custodian>
+  <CI_RoleCode_owner>Owner</CI_RoleCode_owner>
+  <CI_RoleCode_user>User</CI_RoleCode_user>
+  <CI_RoleCode_distributor>Distributor</CI_RoleCode_distributor>
+  <CI_RoleCode_originator>Originator</CI_RoleCode_originator>
+  <CI_RoleCode_pointOfContact>Point Of Contact</CI_RoleCode_pointOfContact>
+  <CI_RoleCode_principalInvestigator>Principal Investigator</CI_RoleCode_principalInvestigator>
+  <CI_RoleCode_processor>Processor</CI_RoleCode_processor>
+  <CI_RoleCode_publisher>Publisher</CI_RoleCode_publisher>
+  <CI_RoleCode_author>Author</CI_RoleCode_author>
+  <CI_RoleCode_sponsor>Sponsor</CI_RoleCode_sponsor>
+  <CI_RoleCode_coAuthor>Co Author</CI_RoleCode_coAuthor>
+  <CI_RoleCode_collaborator>Collaborator</CI_RoleCode_collaborator>
+  <CI_RoleCode_editor>Editor</CI_RoleCode_editor>
+  <CI_RoleCode_mediator>Mediator</CI_RoleCode_mediator>
+  <CI_RoleCode_rightsHolder>Rights Holder</CI_RoleCode_rightsHolder>
+  <CI_RoleCode_contributor>Contributor</CI_RoleCode_contributor>
+  <CI_RoleCode_funder>Funder</CI_RoleCode_funder>
+  <CI_RoleCode_stakeholder>Stakeholder</CI_RoleCode_stakeholder>
+  <CI_TelephoneTypeCode_voice>Voice</CI_TelephoneTypeCode_voice>
+  <CI_TelephoneTypeCode_facsimile>Facsimile</CI_TelephoneTypeCode_facsimile>
+  <CI_TelephoneTypeCode_sms>Sms</CI_TelephoneTypeCode_sms>
+  <MI_ContextCode_acquisition>Acquisition</MI_ContextCode_acquisition>
+  <MI_ContextCode_pass>Pass</MI_ContextCode_pass>
+  <MI_ContextCode_wayPoint>Way Point</MI_ContextCode_wayPoint>
+  <MI_GeometryTypeCode_point>Point</MI_GeometryTypeCode_point>
+  <MI_GeometryTypeCode_linear>Linear</MI_GeometryTypeCode_linear>
+  <MI_GeometryTypeCode_areal>Areal</MI_GeometryTypeCode_areal>
+  <MI_GeometryTypeCode_strip>Strip</MI_GeometryTypeCode_strip>
+  <MI_ObjectiveTypeCode_instantaneousCollection>Instantaneous Collection</MI_ObjectiveTypeCode_instantaneousCollection>
+  <MI_ObjectiveTypeCode_persistentView>Persistent View</MI_ObjectiveTypeCode_persistentView>
+  <MI_ObjectiveTypeCode_survey>Survey</MI_ObjectiveTypeCode_survey>
+  <MI_OperationTypeCode_real>Real</MI_OperationTypeCode_real>
+  <MI_OperationTypeCode_simulated>Simulated</MI_OperationTypeCode_simulated>
+  <MI_OperationTypeCode_synthesized>Synthesized</MI_OperationTypeCode_synthesized>
+  <MI_PriorityCode_critical>Critical</MI_PriorityCode_critical>
+  <MI_PriorityCode_highImportance>High Importance</MI_PriorityCode_highImportance>
+  <MI_PriorityCode_mediumImportance>Medium Importance</MI_PriorityCode_mediumImportance>
+  <MI_PriorityCode_lowImportance>Low Importance</MI_PriorityCode_lowImportance>
+  <MI_SequenceCode_start>Start</MI_SequenceCode_start>
+  <MI_SequenceCode_end>End</MI_SequenceCode_end>
+  <MI_SequenceCode_instantaneous>Instantaneous</MI_SequenceCode_instantaneous>
+  <MI_TriggerCode_automatic>Automatic</MI_TriggerCode_automatic>
+  <MI_TriggerCode_manual>Manual</MI_TriggerCode_manual>
+  <MI_TriggerCode_preProgrammed>Pre Programmed</MI_TriggerCode_preProgrammed>
+  <MD_ProgressCode_completed>Completed</MD_ProgressCode_completed>
+  <MD_ProgressCode_historicalArchive>archiwum historyczne</MD_ProgressCode_historicalArchive>
+  <MD_ProgressCode_obsolete>Obsolete</MD_ProgressCode_obsolete>
+  <MD_ProgressCode_onGoing>postępujący</MD_ProgressCode_onGoing>
+  <MD_ProgressCode_planned>Planned</MD_ProgressCode_planned>
+  <MD_ProgressCode_required>Required</MD_ProgressCode_required>
+  <MD_ProgressCode_underDevelopment>w przygotowaniu</MD_ProgressCode_underDevelopment>
+  <MD_ProgressCode_final>Final</MD_ProgressCode_final>
+  <MD_ProgressCode_pending>Pending</MD_ProgressCode_pending>
+  <MD_ProgressCode_retired>Retired</MD_ProgressCode_retired>
+  <MD_ProgressCode_superseded>Superseded</MD_ProgressCode_superseded>
+  <MD_ProgressCode_tentative>Tentative</MD_ProgressCode_tentative>
+  <MD_ProgressCode_valid>Valid</MD_ProgressCode_valid>
+  <MD_ProgressCode_accepted>Accepted</MD_ProgressCode_accepted>
+  <MD_ProgressCode_notAccepted>Not Accepted</MD_ProgressCode_notAccepted>
+  <MD_ProgressCode_withdrawn>Withdrawn</MD_ProgressCode_withdrawn>
+  <MD_ProgressCode_proposed>Proposed</MD_ProgressCode_proposed>
+  <MD_ProgressCode_deprecated>Deprecated</MD_ProgressCode_deprecated>
+  <MD_ScopeCode_attribute>Attribute</MD_ScopeCode_attribute>
+  <MD_ScopeCode_attributeType>typ atrybutu</MD_ScopeCode_attributeType>
+  <MD_ScopeCode_collectionHardware>kolekcja sprzętu</MD_ScopeCode_collectionHardware>
+  <MD_ScopeCode_collectionSession>kolekcja sesji</MD_ScopeCode_collectionSession>
+  <MD_ScopeCode_dataset>Dataset</MD_ScopeCode_dataset>
+  <MD_ScopeCode_series>Series</MD_ScopeCode_series>
+  <MD_ScopeCode_nonGeographicDataset>niegeograficzny zbiór danych</MD_ScopeCode_nonGeographicDataset>
+  <MD_ScopeCode_dimensionGroup>grupa wymiaru</MD_ScopeCode_dimensionGroup>
+  <MD_ScopeCode_feature>Feature</MD_ScopeCode_feature>
+  <MD_ScopeCode_featureType>Feature Type</MD_ScopeCode_featureType>
+  <MD_ScopeCode_propertyType>typ właściwości</MD_ScopeCode_propertyType>
+  <MD_ScopeCode_fieldSession>sesja pomiarowa</MD_ScopeCode_fieldSession>
+  <MD_ScopeCode_software>Software</MD_ScopeCode_software>
+  <MD_ScopeCode_service>Service</MD_ScopeCode_service>
+  <MD_ScopeCode_model>Model</MD_ScopeCode_model>
+  <MD_ScopeCode_tile>Tile</MD_ScopeCode_tile>
+  <MD_ScopeCode_metadata>Metadata</MD_ScopeCode_metadata>
+  <MD_ScopeCode_initiative>Initiative</MD_ScopeCode_initiative>
+  <MD_ScopeCode_sample>Sample</MD_ScopeCode_sample>
+  <MD_ScopeCode_document>Document</MD_ScopeCode_document>
+  <MD_ScopeCode_repository>Repository</MD_ScopeCode_repository>
+  <MD_ScopeCode_aggregate>Aggregate</MD_ScopeCode_aggregate>
+  <MD_ScopeCode_product>Product</MD_ScopeCode_product>
+  <MD_ScopeCode_collection>Collection</MD_ScopeCode_collection>
+  <MD_ScopeCode_coverage>Coverage</MD_ScopeCode_coverage>
+  <MD_ScopeCode_application>Application</MD_ScopeCode_application>
+  <MD_SpatialRepresentationTypeCode_vector>Vector</MD_SpatialRepresentationTypeCode_vector>
+  <MD_SpatialRepresentationTypeCode_grid>Grid</MD_SpatialRepresentationTypeCode_grid>
+  <MD_SpatialRepresentationTypeCode_textTable>tabela tekstowa</MD_SpatialRepresentationTypeCode_textTable>
+  <MD_SpatialRepresentationTypeCode_tin>Tin</MD_SpatialRepresentationTypeCode_tin>
+  <MD_SpatialRepresentationTypeCode_stereoModel>stereo model</MD_SpatialRepresentationTypeCode_stereoModel>
+  <MD_SpatialRepresentationTypeCode_video>Video</MD_SpatialRepresentationTypeCode_video>
+  <MD_ClassificationCode_unclassified>niesklasyfikowany</MD_ClassificationCode_unclassified>
+  <MD_ClassificationCode_restricted>ograniczony</MD_ClassificationCode_restricted>
+  <MD_ClassificationCode_confidential>poufny</MD_ClassificationCode_confidential>
+  <MD_ClassificationCode_secret>tajny</MD_ClassificationCode_secret>
+  <MD_ClassificationCode_topSecret>ścisle tajny</MD_ClassificationCode_topSecret>
+  <MD_ClassificationCode_SBU>SBU</MD_ClassificationCode_SBU>
+  <MD_ClassificationCode_forOfficialUseOnly>For Official Use Only</MD_ClassificationCode_forOfficialUseOnly>
+  <MD_ClassificationCode_protected>Protected</MD_ClassificationCode_protected>
+  <MD_ClassificationCode_limitedDistribution>Limited Distribution</MD_ClassificationCode_limitedDistribution>
+  <MD_RestrictionCode_copyright>Copyright</MD_RestrictionCode_copyright>
+  <MD_RestrictionCode_patent>Patent</MD_RestrictionCode_patent>
+  <MD_RestrictionCode_patentPending>oczekiwanie na patent</MD_RestrictionCode_patentPending>
+  <MD_RestrictionCode_trademark>Trademark</MD_RestrictionCode_trademark>
+  <MD_RestrictionCode_licence>Licence</MD_RestrictionCode_licence>
+  <MD_RestrictionCode_intellectualPropertyRights>prawa własności intelektualnej</MD_RestrictionCode_intellectualPropertyRights>
+  <MD_RestrictionCode_restricted>Restricted</MD_RestrictionCode_restricted>
+  <MD_RestrictionCode_otherRestrictions>inne ograniczenia</MD_RestrictionCode_otherRestrictions>
+  <MD_RestrictionCode_unrestricted>Unrestricted</MD_RestrictionCode_unrestricted>
+  <MD_RestrictionCode_licenceUnrestricted>Licence Unrestricted</MD_RestrictionCode_licenceUnrestricted>
+  <MD_RestrictionCode_licenceEndUser>Licence End User</MD_RestrictionCode_licenceEndUser>
+  <MD_RestrictionCode_licenceDistributor>Licence Distributor</MD_RestrictionCode_licenceDistributor>
+  <MD_RestrictionCode_private>Private</MD_RestrictionCode_private>
+  <MD_RestrictionCode_statutory>Statutory</MD_RestrictionCode_statutory>
+  <MD_RestrictionCode_confidential>Confidential</MD_RestrictionCode_confidential>
+  <MD_RestrictionCode_SBU>SBU</MD_RestrictionCode_SBU>
+  <MD_RestrictionCode_in-confidence>In-confidence</MD_RestrictionCode_in-confidence>
+  <MD_DatatypeCode_class>Class</MD_DatatypeCode_class>
+  <MD_DatatypeCode_codelist>Codelist</MD_DatatypeCode_codelist>
+  <MD_DatatypeCode_enumeration>Enumeration</MD_DatatypeCode_enumeration>
+  <MD_DatatypeCode_codelistElement>Codelist Element</MD_DatatypeCode_codelistElement>
+  <MD_DatatypeCode_abstractClass>Abstract Class</MD_DatatypeCode_abstractClass>
+  <MD_DatatypeCode_aggregateClass>Aggregate Class</MD_DatatypeCode_aggregateClass>
+  <MD_DatatypeCode_specifiedClass>Specified Class</MD_DatatypeCode_specifiedClass>
+  <MD_DatatypeCode_datatypeClass>Datatype Class</MD_DatatypeCode_datatypeClass>
+  <MD_DatatypeCode_interfaceClass>Interface Class</MD_DatatypeCode_interfaceClass>
+  <MD_DatatypeCode_unionClass>Union Class</MD_DatatypeCode_unionClass>
+  <MD_DatatypeCode_metaClass>Meta Class</MD_DatatypeCode_metaClass>
+  <MD_DatatypeCode_typeClass>Type Class</MD_DatatypeCode_typeClass>
+  <MD_DatatypeCode_characterString>Character String</MD_DatatypeCode_characterString>
+  <MD_DatatypeCode_integer>Integer</MD_DatatypeCode_integer>
+  <MD_DatatypeCode_association>Association</MD_DatatypeCode_association>
+  <MD_ObligationCode_mandatory>Mandatory</MD_ObligationCode_mandatory>
+  <MD_ObligationCode_optional>Optional</MD_ObligationCode_optional>
+  <MD_ObligationCode_conditional>Conditional</MD_ObligationCode_conditional>
+  <MD_MaintenanceFrequencyCode_continual>Continual</MD_MaintenanceFrequencyCode_continual>
+  <MD_MaintenanceFrequencyCode_daily>Daily</MD_MaintenanceFrequencyCode_daily>
+  <MD_MaintenanceFrequencyCode_weekly>Weekly</MD_MaintenanceFrequencyCode_weekly>
+  <MD_MaintenanceFrequencyCode_fortnightly>Fortnightly</MD_MaintenanceFrequencyCode_fortnightly>
+  <MD_MaintenanceFrequencyCode_monthly>Monthly</MD_MaintenanceFrequencyCode_monthly>
+  <MD_MaintenanceFrequencyCode_quarterly>Quarterly</MD_MaintenanceFrequencyCode_quarterly>
+  <MD_MaintenanceFrequencyCode_biannually>Biannually</MD_MaintenanceFrequencyCode_biannually>
+  <MD_MaintenanceFrequencyCode_annually>Annually</MD_MaintenanceFrequencyCode_annually>
+  <MD_MaintenanceFrequencyCode_asNeeded>według potrzeb</MD_MaintenanceFrequencyCode_asNeeded>
+  <MD_MaintenanceFrequencyCode_irregular>Irregular</MD_MaintenanceFrequencyCode_irregular>
+  <MD_MaintenanceFrequencyCode_notPlanned>nieplanowa</MD_MaintenanceFrequencyCode_notPlanned>
+  <MD_MaintenanceFrequencyCode_unknown>Unknown</MD_MaintenanceFrequencyCode_unknown>
+  <MD_MaintenanceFrequencyCode_periodic>Periodic</MD_MaintenanceFrequencyCode_periodic>
+  <MD_MaintenanceFrequencyCode_semimonthly>Semimonthly</MD_MaintenanceFrequencyCode_semimonthly>
+  <MD_MaintenanceFrequencyCode_biennially>Biennially</MD_MaintenanceFrequencyCode_biennially>
+  <MD_CoverageContentTypeCode_image>Image</MD_CoverageContentTypeCode_image>
+  <MD_CoverageContentTypeCode_thematicClassification>klasyfikacja tematyczna</MD_CoverageContentTypeCode_thematicClassification>
+  <MD_CoverageContentTypeCode_physicalMeasurement>pomiar fizyczny</MD_CoverageContentTypeCode_physicalMeasurement>
+  <MD_CoverageContentTypeCode_auxillaryInformation>Auxillary Information</MD_CoverageContentTypeCode_auxillaryInformation>
+  <MD_CoverageContentTypeCode_qualityInformation>Quality Information</MD_CoverageContentTypeCode_qualityInformation>
+  <MD_CoverageContentTypeCode_coordinate>Coordinate</MD_CoverageContentTypeCode_coordinate>
+  <MD_ImagingConditionCode_blurredImage>zamazany obraz</MD_ImagingConditionCode_blurredImage>
+  <MD_ImagingConditionCode_cloud>Cloud</MD_ImagingConditionCode_cloud>
+  <MD_ImagingConditionCode_degradingObliquity>zaniżone nachylenie</MD_ImagingConditionCode_degradingObliquity>
+  <MD_ImagingConditionCode_fog>Fog</MD_ImagingConditionCode_fog>
+  <MD_ImagingConditionCode_heavySmokeOrDust>ciężki dym lub pył</MD_ImagingConditionCode_heavySmokeOrDust>
+  <MD_ImagingConditionCode_night>Night</MD_ImagingConditionCode_night>
+  <MD_ImagingConditionCode_rain>Rain</MD_ImagingConditionCode_rain>
+  <MD_ImagingConditionCode_semiDarkness>półmrok</MD_ImagingConditionCode_semiDarkness>
+  <MD_ImagingConditionCode_shadow>Shadow</MD_ImagingConditionCode_shadow>
+  <MD_ImagingConditionCode_snow>Snow</MD_ImagingConditionCode_snow>
+  <MD_ImagingConditionCode_terrainMasking>maskowanie terenu</MD_ImagingConditionCode_terrainMasking>
+  <MD_MediumFormatCode_cpio>Cpio</MD_MediumFormatCode_cpio>
+  <MD_MediumFormatCode_tar>Tar</MD_MediumFormatCode_tar>
+  <MD_MediumFormatCode_highSierra>High Sierra</MD_MediumFormatCode_highSierra>
+  <MD_MediumFormatCode_iso9660>Iso9660</MD_MediumFormatCode_iso9660>
+  <MD_MediumFormatCode_iso9660RockRidge>Iso9660 Rock Ridge</MD_MediumFormatCode_iso9660RockRidge>
+  <MD_MediumFormatCode_iso9660AppleHFS>Iso9660 Apple H F S</MD_MediumFormatCode_iso9660AppleHFS>
+  <MD_MediumFormatCode_udf>Udf</MD_MediumFormatCode_udf>
+  <DS_AssociationTypeCode_crossReference>referencja krzyżowa</DS_AssociationTypeCode_crossReference>
+  <DS_AssociationTypeCode_largerWorkCitation>część większej pracy</DS_AssociationTypeCode_largerWorkCitation>
+  <DS_AssociationTypeCode_partOfSeamlessDatabase>część jednolitej bazy</DS_AssociationTypeCode_partOfSeamlessDatabase>
+  <DS_AssociationTypeCode_stereoMate>pomocnik stereo</DS_AssociationTypeCode_stereoMate>
+  <DS_AssociationTypeCode_isComposedOf>Is Composed Of</DS_AssociationTypeCode_isComposedOf>
+  <DS_AssociationTypeCode_collectiveTitle>Collective Title</DS_AssociationTypeCode_collectiveTitle>
+  <DS_AssociationTypeCode_series>Series</DS_AssociationTypeCode_series>
+  <DS_AssociationTypeCode_dependency>Dependency</DS_AssociationTypeCode_dependency>
+  <DS_AssociationTypeCode_revisionOf>Revision Of</DS_AssociationTypeCode_revisionOf>
+  <DS_InitiativeTypeCode_campaign>kampania</DS_InitiativeTypeCode_campaign>
+  <DS_InitiativeTypeCode_collection>kolekcja</DS_InitiativeTypeCode_collection>
+  <DS_InitiativeTypeCode_exercise>ćwiczenie</DS_InitiativeTypeCode_exercise>
+  <DS_InitiativeTypeCode_experiment>eksperyment</DS_InitiativeTypeCode_experiment>
+  <DS_InitiativeTypeCode_investigation>dochodzenie</DS_InitiativeTypeCode_investigation>
+  <DS_InitiativeTypeCode_mission>misja</DS_InitiativeTypeCode_mission>
+  <DS_InitiativeTypeCode_sensor>sensor</DS_InitiativeTypeCode_sensor>
+  <DS_InitiativeTypeCode_operation>operacja</DS_InitiativeTypeCode_operation>
+  <DS_InitiativeTypeCode_platform>platforma</DS_InitiativeTypeCode_platform>
+  <DS_InitiativeTypeCode_process>proces</DS_InitiativeTypeCode_process>
+  <DS_InitiativeTypeCode_program>program</DS_InitiativeTypeCode_program>
+  <DS_InitiativeTypeCode_project>projekt</DS_InitiativeTypeCode_project>
+  <DS_InitiativeTypeCode_study>nauka</DS_InitiativeTypeCode_study>
+  <DS_InitiativeTypeCode_task>zadanie</DS_InitiativeTypeCode_task>
+  <DS_InitiativeTypeCode_trial>próba</DS_InitiativeTypeCode_trial>
+  <MD_KeywordTypeCode_discipline>Discipline</MD_KeywordTypeCode_discipline>
+  <MD_KeywordTypeCode_place>Place</MD_KeywordTypeCode_place>
+  <MD_KeywordTypeCode_stratum>Stratum</MD_KeywordTypeCode_stratum>
+  <MD_KeywordTypeCode_temporal>Temporal</MD_KeywordTypeCode_temporal>
+  <MD_KeywordTypeCode_theme>Theme</MD_KeywordTypeCode_theme>
+  <MD_KeywordTypeCode_dataCentre>Data Centre</MD_KeywordTypeCode_dataCentre>
+  <MD_KeywordTypeCode_featureType>Feature Type</MD_KeywordTypeCode_featureType>
+  <MD_KeywordTypeCode_instrument>Instrument</MD_KeywordTypeCode_instrument>
+  <MD_KeywordTypeCode_platform>Platform</MD_KeywordTypeCode_platform>
+  <MD_KeywordTypeCode_process>Process</MD_KeywordTypeCode_process>
+  <MD_KeywordTypeCode_project>Project</MD_KeywordTypeCode_project>
+  <MD_KeywordTypeCode_service>Service</MD_KeywordTypeCode_service>
+  <MD_KeywordTypeCode_product>Product</MD_KeywordTypeCode_product>
+  <MD_KeywordTypeCode_subTopicCategory>Sub Topic Category</MD_KeywordTypeCode_subTopicCategory>
+  <MD_KeywordTypeCode_taxon>Taxon</MD_KeywordTypeCode_taxon>
+  <MD_TopicCategoryCode_farming>Farming</MD_TopicCategoryCode_farming>
+  <MD_TopicCategoryCode_biota>Biota</MD_TopicCategoryCode_biota>
+  <MD_TopicCategoryCode_boundaries>Boundaries</MD_TopicCategoryCode_boundaries>
+  <MD_TopicCategoryCode_climatologyMeteorologyAtmosphere>klimatologia, meteorologia, atmosfera</MD_TopicCategoryCode_climatologyMeteorologyAtmosphere>
+  <MD_TopicCategoryCode_economy>Economy</MD_TopicCategoryCode_economy>
+  <MD_TopicCategoryCode_elevation>Elevation</MD_TopicCategoryCode_elevation>
+  <MD_TopicCategoryCode_environment>Environment</MD_TopicCategoryCode_environment>
+  <MD_TopicCategoryCode_geoscientificInformation>informacja nauki o Ziemi</MD_TopicCategoryCode_geoscientificInformation>
+  <MD_TopicCategoryCode_health>Health</MD_TopicCategoryCode_health>
+  <MD_TopicCategoryCode_imageryBaseMapsEarthCover>obrazy, mapy zasadnicze pokrycia terenu</MD_TopicCategoryCode_imageryBaseMapsEarthCover>
+  <MD_TopicCategoryCode_intelligenceMilitary>Intelligence Military</MD_TopicCategoryCode_intelligenceMilitary>
+  <MD_TopicCategoryCode_inlandWaters>wody śródlądowe</MD_TopicCategoryCode_inlandWaters>
+  <MD_TopicCategoryCode_location>Location</MD_TopicCategoryCode_location>
+  <MD_TopicCategoryCode_oceans>Oceans</MD_TopicCategoryCode_oceans>
+  <MD_TopicCategoryCode_planningCadastre>planowanie katastralne</MD_TopicCategoryCode_planningCadastre>
+  <MD_TopicCategoryCode_society>Society</MD_TopicCategoryCode_society>
+  <MD_TopicCategoryCode_structure>Structure</MD_TopicCategoryCode_structure>
+  <MD_TopicCategoryCode_transportation>Transportation</MD_TopicCategoryCode_transportation>
+  <MD_TopicCategoryCode_utilitiesCommunication>usługi komunikacyjne</MD_TopicCategoryCode_utilitiesCommunication>
+  <MD_TopicCategoryCode_extraTerrestrial>Extra Terrestrial</MD_TopicCategoryCode_extraTerrestrial>
+  <MD_TopicCategoryCode_disaster>Disaster</MD_TopicCategoryCode_disaster>
+  <MD_ReferenceSystemTypeCode_compoundEngineeringParametric>Compound Engineering Parametric</MD_ReferenceSystemTypeCode_compoundEngineeringParametric>
+  <MD_ReferenceSystemTypeCode_compoundEngineeringParametricTemporal>Compound Engineering Parametric Temporal</MD_ReferenceSystemTypeCode_compoundEngineeringParametricTemporal>
+  <MD_ReferenceSystemTypeCode_compoundEngineeringTemporal>Compound Engineering Temporal</MD_ReferenceSystemTypeCode_compoundEngineeringTemporal>
+  <MD_ReferenceSystemTypeCode_compoundEngineeringVertical>Compound Engineering Vertical</MD_ReferenceSystemTypeCode_compoundEngineeringVertical>
+  <MD_ReferenceSystemTypeCode_compoundEngineeringVerticalTemporal>Compound Engineering Vertical Temporal</MD_ReferenceSystemTypeCode_compoundEngineeringVerticalTemporal>
+  <MD_ReferenceSystemTypeCode_compoundGeodeticParametric>Compound Geodetic Parametric</MD_ReferenceSystemTypeCode_compoundGeodeticParametric>
+  <MD_ReferenceSystemTypeCode_compoundGeodeticParametricTemporal>Compound Geodetic Parametric Temporal</MD_ReferenceSystemTypeCode_compoundGeodeticParametricTemporal>
+  <MD_ReferenceSystemTypeCode_compoundGeographic2DTemporal>Compound Geographic2 D Temporal</MD_ReferenceSystemTypeCode_compoundGeographic2DTemporal>
+  <MD_ReferenceSystemTypeCode_compoundGeographic2DVertical>Compound Geographic2 D Vertical</MD_ReferenceSystemTypeCode_compoundGeographic2DVertical>
+  <MD_ReferenceSystemTypeCode_compoundGeographicVerticalTemporal>Compound Geographic Vertical Temporal</MD_ReferenceSystemTypeCode_compoundGeographicVerticalTemporal>
+  <MD_ReferenceSystemTypeCode_compoundGeographic3DTemporal>Compound Geographic3 D Temporal</MD_ReferenceSystemTypeCode_compoundGeographic3DTemporal>
+  <MD_ReferenceSystemTypeCode_compoundProjected2DParametric>Compound Projected2 D Parametric</MD_ReferenceSystemTypeCode_compoundProjected2DParametric>
+  <MD_ReferenceSystemTypeCode_compoundProjected2DParametricTemporal>Compound Projected2 D Parametric Temporal</MD_ReferenceSystemTypeCode_compoundProjected2DParametricTemporal>
+  <MD_ReferenceSystemTypeCode_compoundProjectedTemporal>Compound Projected Temporal</MD_ReferenceSystemTypeCode_compoundProjectedTemporal>
+  <MD_ReferenceSystemTypeCode_compoundProjectedVertical>Compound Projected Vertical</MD_ReferenceSystemTypeCode_compoundProjectedVertical>
+  <MD_ReferenceSystemTypeCode_compoundProjectedVerticalTemporal>Compound Projected Vertical Temporal</MD_ReferenceSystemTypeCode_compoundProjectedVerticalTemporal>
+  <MD_ReferenceSystemTypeCode_engineering>Engineering</MD_ReferenceSystemTypeCode_engineering>
+  <MD_ReferenceSystemTypeCode_engineeringDesign>Engineering Design</MD_ReferenceSystemTypeCode_engineeringDesign>
+  <MD_ReferenceSystemTypeCode_engineeringImage>Engineering Image</MD_ReferenceSystemTypeCode_engineeringImage>
+  <MD_ReferenceSystemTypeCode_geodeticGeocentric>Geodetic Geocentric</MD_ReferenceSystemTypeCode_geodeticGeocentric>
+  <MD_ReferenceSystemTypeCode_geodeticGeographic2D>Geodetic Geographic2 D</MD_ReferenceSystemTypeCode_geodeticGeographic2D>
+  <MD_ReferenceSystemTypeCode_geodeticGeographic3D>Geodetic Geographic3 D</MD_ReferenceSystemTypeCode_geodeticGeographic3D>
+  <MD_ReferenceSystemTypeCode_geographicIdentifier>Geographic Identifier</MD_ReferenceSystemTypeCode_geographicIdentifier>
+  <MD_ReferenceSystemTypeCode_linear>Linear</MD_ReferenceSystemTypeCode_linear>
+  <MD_ReferenceSystemTypeCode_parametric>Parametric</MD_ReferenceSystemTypeCode_parametric>
+  <MD_ReferenceSystemTypeCode_projected>Projected</MD_ReferenceSystemTypeCode_projected>
+  <MD_ReferenceSystemTypeCode_temporal>Temporal</MD_ReferenceSystemTypeCode_temporal>
+  <MD_ReferenceSystemTypeCode_vertical>Vertical</MD_ReferenceSystemTypeCode_vertical>
+  <MD_PixelOrientationCode_centre>Centre</MD_PixelOrientationCode_centre>
+  <MD_PixelOrientationCode_lowerLeft>Lower Left</MD_PixelOrientationCode_lowerLeft>
+  <MD_PixelOrientationCode_lowerRight>Lower Right</MD_PixelOrientationCode_lowerRight>
+  <MD_PixelOrientationCode_upperRight>Upper Right</MD_PixelOrientationCode_upperRight>
+  <MD_PixelOrientationCode_upperLeft>Upper Left</MD_PixelOrientationCode_upperLeft>
+  <SV_CouplingType_loose>Loose</SV_CouplingType_loose>
+  <SV_CouplingType_mixed>Mixed</SV_CouplingType_mixed>
+  <SV_CouplingType_tight>Tight</SV_CouplingType_tight>
+  <SV_ParameterDirection_in>In</SV_ParameterDirection_in>
+  <SV_ParameterDirection_out>Out</SV_ParameterDirection_out>
+  <SV_ParameterDirection_inout>Inout</SV_ParameterDirection_inout>
+  <DQ_EvaluationMethodTypeCode_directInternal>Direct Internal</DQ_EvaluationMethodTypeCode_directInternal>
+  <DQ_EvaluationMethodTypeCode_directExternal>Direct External</DQ_EvaluationMethodTypeCode_directExternal>
+  <DQ_EvaluationMethodTypeCode_indirect>pośredni</DQ_EvaluationMethodTypeCode_indirect>
+  <AccessProperties>Access Properties</AccessProperties>
+  <AccuracyReport>Accuracy Report</AccuracyReport>
+  <AcquisitionInformation>Acquisition Information</AcquisitionInformation>
+  <AcquisitionPlan>Acquisition Plan</AcquisitionPlan>
+  <AcquisitionRequirement>Acquisition Requirement</AcquisitionRequirement>
+  <AdditionalDocumentation>Additional Documentation</AdditionalDocumentation>
+  <Address>Adres</Address>
+  <Addressee>Addressee</Addressee>
+  <AggregateDataSetIdentifier>Identyfikator agregującego zbioru danych</AggregateDataSetIdentifier>
+  <AggregateDataSetName>Nazwa agregującego zbioru danych</AggregateDataSetName>
+  <AggregationInfo>Informacje o agregacji</AggregationInfo>
+  <Algorithm>Algorithm</Algorithm>
+  <AlternativeMetadataReference>Alternative Metadata Reference</AlternativeMetadataReference>
+  <ApplicationSchemaInfo>Informacje o schemacie aplikacji</ApplicationSchemaInfo>
+  <AssociatedResource>Associated Resource</AssociatedResource>
+  <Attribute>Attribute</Attribute>
+  <AttributeGroup>Attribute Group</AttributeGroup>
+  <Authority>Osoba lub instytucja odpowiedzialna</Authority>
+  <AxisDimensionProperties>Właściwości wymiarów osi</AxisDimensionProperties>
+  <BandBoundaryDefinition>Band Boundary Definition</BandBoundaryDefinition>
+  <BoundUnits>Bound Units</BoundUnits>
+  <CheckPoint>Check Point</CheckPoint>
+  <ChildOperation>Child Operation</ChildOperation>
+  <Citation>Przytaczane dane</Citation>
+  <CitedResponsibleParty>Cited Responsible Party</CitedResponsibleParty>
+  <ComposedOf>Złożony z</ComposedOf>
+  <ConceptIdentifier>Concept Identifier</ConceptIdentifier>
+  <ConnectPoint>Connect Point</ConnectPoint>
+  <ConstraintApplicationScope>Constraint Application Scope</ConstraintApplicationScope>
+  <Contact>Contact</Contact>
+  <ContactInfo>Contact Info</ContactInfo>
+  <ContainsChain>Contains Chain</ContainsChain>
+  <ContainsOperations>Contains Operations</ContainsOperations>
+  <ContentInfo>Content Info</ContentInfo>
+  <CoordinateReferenceSystem>Coordinate Reference System</CoordinateReferenceSystem>
+  <CornerPoints>Punkty narożne</CornerPoints>
+  <CoupledResource>Coupled Resource</CoupledResource>
+  <DataQualityInfo>Data Quality Info</DataQualityInfo>
+  <DateInfo>Date Info</DateInfo>
+  <DefaultLocale>Default Locale</DefaultLocale>
+  <DependsOn>Depends On</DependsOn>
+  <DerivedElement>Derived Element</DerivedElement>
+  <DescriptiveKeywords>Descriptive Keywords</DescriptiveKeywords>
+  <Dimension>Wymiar</Dimension>
+  <DistributionFormat>Format dystrybucji</DistributionFormat>
+  <DistributionInfo>Distribution Info</DistributionInfo>
+  <DistributionOrderProcess>Proces kolejności dystrybucji</DistributionOrderProcess>
+  <Distributor>Dystrybutor</Distributor>
+  <DistributorContact>Kontakt dystrybucyjny</DistributorContact>
+  <DistributorFormat>Format dystrybutora</DistributorFormat>
+  <DistributorTransferOptions>Opcje transferu dystrybutora</DistributorTransferOptions>
+  <Documentation>Documentation</Documentation>
+  <DomainOfValidity>Zakres ważności</DomainOfValidity>
+  <ElementReport>Element Report</ElementReport>
+  <EnvironmentalConditions>Environmental Conditions</EnvironmentalConditions>
+  <EquivalentScale>Poziom szczegółowości skali</EquivalentScale>
+  <EvaluationMethod>Evaluation Method</EvaluationMethod>
+  <EvaluationProcedure>Procedura ewaluacji</EvaluationProcedure>
+  <ExpectedObjective>Expected Objective</ExpectedObjective>
+  <ExtendedElementInformation>Informacje o rozszerzeniu elementu</ExtendedElementInformation>
+  <ExtensionOnLineResource>Rozszerzenie zasobu online</ExtensionOnLineResource>
+  <Extent>Zasięg</Extent>
+  <FeatureCatalogue>Feature Catalogue</FeatureCatalogue>
+  <FeatureCatalogueCitation>Odwołanie do katalogu obiektów</FeatureCatalogueCitation>
+  <FeatureTypes>Typy obiektów</FeatureTypes>
+  <FileFormat>File Format</FileFormat>
+  <FormatDistributor>Format dystrybutora</FormatDistributor>
+  <FormatSpecificationCitation>Format Specification Citation</FormatSpecificationCitation>
+  <Gcp>Gcp</Gcp>
+  <GeographicCoordinates>Geographic Coordinates</GeographicCoordinates>
+  <GeographicElement>Element geograficzny</GeographicElement>
+  <GeographicIdentifier>Identyfikator geograficzny</GeographicIdentifier>
+  <GeolocationIdentification>Geolocation Identification</GeolocationIdentification>
+  <GeolocationInformation>Geolocation Information</GeolocationInformation>
+  <GeometricObjects>Geometric Objects</GeometricObjects>
+  <Graphic>Graphic</Graphic>
+  <GraphicOverview>Podgląd graficzny</GraphicOverview>
+  <Has>Zawiera</Has>
+  <IdentificationInfo>Identification Info</IdentificationInfo>
+  <IdentifiedIssues>Identified Issues</IdentifiedIssues>
+  <Identifier>Identyfikator</Identifier>
+  <ImageConstraints>Image Constraints</ImageConstraints>
+  <ImageQualityCode>Kod jakości obrazu</ImageQualityCode>
+  <Individual>Individual</Individual>
+  <Instrument>Instrument</Instrument>
+  <KeywordClass>Keyword Class</KeywordClass>
+  <LevelDescription>Opis poziomu</LevelDescription>
+  <Locale>Lokalizacja</Locale>
+  <LocalisedString>Localised String</LocalisedString>
+  <Logo>Logo</Logo>
+  <MaintenanceDate>Date Info</MaintenanceDate>
+  <MaintenanceScope>Maintenance Scope</MaintenanceScope>
+  <Measure>Measure</Measure>
+  <MeasureDescription>Opis miary</MeasureDescription>
+  <MeasureIdentification>Identyfikator miary</MeasureIdentification>
+  <Medium>Nośnik</Medium>
+  <MetadataConstraints>Ograniczenia metadanych</MetadataConstraints>
+  <MetadataExtensionInfo>Informacje o rozszerzeniu metadanych</MetadataExtensionInfo>
+  <MetadataIdentifier>Metadata Identifier</MetadataIdentifier>
+  <MetadataLinkage>Metadata Linkage</MetadataLinkage>
+  <MetadataMaintenance>Konserwacja metadanych</MetadataMaintenance>
+  <MetadataProfile>Metadata Profile</MetadataProfile>
+  <MetadataReference>Metadata Reference</MetadataReference>
+  <MetadataScope>Metadata Scope</MetadataScope>
+  <MetadataStandard>Metadata Standard</MetadataStandard>
+  <MountedOn>Mounted On</MountedOn>
+  <Objective>Objective</Objective>
+  <ObjectiveOccurrence>Objective Occurrence</ObjectiveOccurrence>
+  <OffLine>Off-line</OffLine>
+  <OnLine>Dostępny</OnLine>
+  <OnlineResource>Adres sieciowy (URL)</OnlineResource>
+  <Ontology>Ontology</Ontology>
+  <OperatedDataset>Operated Dataset</OperatedDataset>
+  <OperatesOn>Operates On</OperatesOn>
+  <Operation>Operation</Operation>
+  <OtherLocale>Other Locale</OtherLocale>
+  <Output>Output</Output>
+  <Parameter>Parameter</Parameter>
+  <ParameterCitation>Przytaczane parametry</ParameterCitation>
+  <ParentMetadata>Parent Metadata</ParentMetadata>
+  <ParentOperation>Parent Operation</ParentOperation>
+  <PartOf>Część</PartOf>
+  <Party>Party</Party>
+  <Phone>Telefon</Phone>
+  <Plan>Plan</Plan>
+  <Platform>Platforma</Platform>
+  <PlatformParameters>Platform Parameters</PlatformParameters>
+  <PointOfContact>Point Of Contact</PointOfContact>
+  <Polygon>Wielokąt</Polygon>
+  <PortrayalCatalogueCitation>Przytoczenie obrazu katalogu</PortrayalCatalogueCitation>
+  <PortrayalCatalogueInfo>Portrayal Catalogue Info</PortrayalCatalogueInfo>
+  <ProcessedLevel>Processed Level</ProcessedLevel>
+  <ProcessingInformation>Processing Information</ProcessingInformation>
+  <ProcessingLevelCode>Kod poziomu przetwarzania</ProcessingLevelCode>
+  <Processor>Przetwórca</Processor>
+  <ProcessStep>Krok procesu</ProcessStep>
+  <Profile>Profil</Profile>
+  <QualityInfo>Quality Info</QualityInfo>
+  <RangeElementDescription>Range Element Description</RangeElementDescription>
+  <Recipient>Recipient</Recipient>
+  <Reference>Reference</Reference>
+  <ReferenceDoc>Reference Doc </ReferenceDoc>
+  <ReferenceSystemIdentifier> Reference System Identifier </ReferenceSystemIdentifier>
+  <ReferenceSystemInfo>Reference System Info</ReferenceSystemInfo>
+  <RelatedElement>Related Element</RelatedElement>
+  <RelatedEvent>Related Event</RelatedEvent>
+  <RelatedPass>Related Pass</RelatedPass>
+  <RelatedSensor>Related Sensor</RelatedSensor>
+  <Releasability>Releasability</Releasability>
+  <Report>Raport</Report>
+  <ReportReference>Report Reference</ReportReference>
+  <RequestedDate>Requested Date</RequestedDate>
+  <Requestor>Requestor</Requestor>
+  <Resource>Resource</Resource>
+  <ResourceConstraints>Ograniczenia zasobu</ResourceConstraints>
+  <ResourceFormat>Format zasobu</ResourceFormat>
+  <ResourceLineage>Resource Lineage</ResourceLineage>
+  <ResourceMaintenance>Utrzymanie zasobów</ResourceMaintenance>
+  <ResourceReference>Resource Reference</ResourceReference>
+  <ResourceSpecificUsage>Specyficzne zastosowanie zasobu</ResourceSpecificUsage>
+  <ResponsibleParty>Jednostka odpowiedzialna</ResponsibleParty>
+  <Result>Wynik</Result>
+  <ResultContentDescription>Result Content Description</ResultContentDescription>
+  <ResultFile>Result File</ResultFile>
+  <ResultFormat>Result Format</ResultFormat>
+  <ResultSpatialRepresentation>Result Spatial Representation</ResultSpatialRepresentation>
+  <SatisfiedRequirement>Satisfied Requirement</SatisfiedRequirement>
+  <SatisifiedPlan>Satisified Plan</SatisifiedPlan>
+  <ScaleDenominator>Mianownik skali</ScaleDenominator>
+  <Scope>Zakres</Scope>
+  <SensingInstrument>Sensing Instrument</SensingInstrument>
+  <Series>Serie</Series>
+  <SeriesMetadata>Serie metadanych</SeriesMetadata>
+  <ServiceStandard>Service Standard</ServiceStandard>
+  <SignificantEvent>Significant Event</SignificantEvent>
+  <SoftwareReference>Software Reference</SoftwareReference>
+  <Source>Źródło</Source>
+  <SourceCitation>Przytaczane źródło</SourceCitation>
+  <SourceExtent>Zasięg źródłowy</SourceExtent>
+  <SourceMetadata>Source Metadata</SourceMetadata>
+  <SourceReferenceSystem>SRS</SourceReferenceSystem>
+  <SourceSpatialResolution>Source Spatial Resolution</SourceSpatialResolution>
+  <SourceStep>Krok źródła</SourceStep>
+  <SpatialExtent>Zakres przestrzenny</SpatialExtent>
+  <SpatialRepresentationInfo>Spatial Representation Info</SpatialRepresentationInfo>
+  <SpatialRepresentationType>Typ reprezentacji przestrzennej</SpatialRepresentationType>
+  <SpatialResolution>Rozdzielczość przestrzenna</SpatialResolution>
+  <Sponsor>Sponsor</Sponsor>
+  <StandaloneQualityReport>Standalone Quality Report</StandaloneQualityReport>
+  <StepDateTime>Step Date Time</StepDateTime>
+  <Subset>Podzbiór</Subset>
+  <Superset>Superzbiór</Superset>
+  <TemporalElement>Element tymczasowy</TemporalElement>
+  <TextGroup>Grupa tekstowa</TextGroup>
+  <ThesaurusName>Nazwa Tezaurusa</ThesaurusName>
+  <TransferOptions>Opcje transferowe</TransferOptions>
+  <Units>Units</Units>
+  <UpdateScope>Zakres aktualizacji</UpdateScope>
+  <UpdateScopeDescription>Zakres aktualizacji zasobu</UpdateScopeDescription>
+  <URI>URI</URI>
+  <UsageDateTime>Użycie daty, czasu</UsageDateTime>
+  <UserContactInfo>Informacje kontaktowe</UserContactInfo>
+  <UserDefinedMaintenanceFrequency>Częstotliwość konserwacji zasobu zdefiniowana przez użytkownika</UserDefinedMaintenanceFrequency>
+  <ValueUnit>Value Unit</ValueUnit>
+  <VerticalCRS>Pionowy CRS</VerticalCRS>
+  <VerticalCRSId>Vertical CRS Id</VerticalCRSId>
+  <VerticalElement>Element pionowy</VerticalElement>
+  <VerticalExtent>Pionowy zakres</VerticalExtent>
+  <Abstract>Podsumowanie zawartości zasobu (streszczenie)</Abstract>
+  <AccessConstraints>Ograniczenia dotyczące dostępu do zasobu</AccessConstraints>
+  <AdministrativeArea>Administrative Area</AdministrativeArea>
+  <AlternateTitle>Alternate Title</AlternateTitle>
+  <AmendmentNumber>Numer poprawki</AmendmentNumber>
+  <AngularDistance>Angular Distance</AngularDistance>
+  <ApplicationProfile>Profil aplikacji</ApplicationProfile>
+  <AssociationType>Typ asocjacji</AssociationType>
+  <AttributeDescription>Opis atrybutu</AttributeDescription>
+  <AttributeInstances>Instancje atrybutu</AttributeInstances>
+  <Attributes>Atrybuty</Attributes>
+  <AverageAirTemperature>Average Air Temperature</AverageAirTemperature>
+  <Begin>Begin</Begin>
+  <BitsPerValue>Bity na wartość</BitsPerValue>
+  <BoundMax>Bound Max</BoundMax>
+  <BoundMin>Bound Min</BoundMin>
+  <CameraCalibrationInformationAvailability>Dostępność informacji o kalibracji aparatu</CameraCalibrationInformationAvailability>
+  <CellGeometry>Geometria komórki</CellGeometry>
+  <CharacterEncoding>Kodowanie znaków</CharacterEncoding>
+  <CharacterSet>Zestaw znaków</CharacterSet>
+  <CheckPointAvailability>Dostępność punktu kontrolnego</CheckPointAvailability>
+  <CheckPointDescription>Opis punktu kontrolnego</CheckPointDescription>
+  <City>Miasto</City>
+  <Classification>Klasyfikacja zasobu</Classification>
+  <ClassificationSystem>System klasyfikacji</ClassificationSystem>
+  <ClassName>Class Name</ClassName>
+  <CloudCoverPercentage>Zachmurzenie (procent pokrycia chmurami)</CloudCoverPercentage>
+  <Code>Kod</Code>
+  <CodeSpace>System</CodeSpace>
+  <CollectionIdentification>Collection Identification</CollectionIdentification>
+  <CollectionName>Collection Name</CollectionName>
+  <CollectiveTitle>Tytuł zbiorczy</CollectiveTitle>
+  <ComplianceCode>Kod zgodności</ComplianceCode>
+  <CompressionGenerationQuantity>Ilość tworzonych kompresji</CompressionGenerationQuantity>
+  <ConceptName>Concept Name</ConceptName>
+  <Condition>Warunek</Condition>
+  <ConstraintLanguage>Język ograniczeń</ConstraintLanguage>
+  <ContactInstructions>Instrukcje kontaktowe</ContactInstructions>
+  <ContactType>Contact Type</ContactType>
+  <ContentType>Typ zawartości</ContentType>
+  <Context>Context</Context>
+  <ControlPointAvailability>Dostępność punktu kontrolnego</ControlPointAvailability>
+  <Country>Państwo</Country>
+  <CouplingType>Coupling Type</CouplingType>
+  <Credit>Kredyt</Credit>
+  <Dataset>Zestaw danych</Dataset>
+  <DataType>Typ danych</DataType>
+  <DateOfNextUpdate>Data następnej aktualizacji</DateOfNextUpdate>
+  <DateTime>Date Time</DateTime>
+  <DateType>Date Type</DateType>
+  <DeductiveSource>Deductive Source</DeductiveSource>
+  <Definition>Definicja</Definition>
+  <DeliveryPoint>Delivery Point</DeliveryPoint>
+  <Denominator>Mianownik</Denominator>
+  <Density>Gęstość</Density>
+  <DensityUnits>Jednostki gęstości</DensityUnits>
+  <Description>Opis</Description>
+  <Descriptor>Przetwórca</Descriptor>
+  <DetectedPolarisation>Detected Polarisation</DetectedPolarisation>
+  <DimensionDescription>Dimension Description</DimensionDescription>
+  <DimensionName>Nazwa wymiaru</DimensionName>
+  <DimensionSize>Rozmiar wymiaru</DimensionSize>
+  <DimensionTitle>Dimension Title</DimensionTitle>
+  <Direction>Direction</Direction>
+  <DisseminationConstraints>Dissemination Constraints</DisseminationConstraints>
+  <Distance>Dystans</Distance>
+  <DistributedComputingPlatform>Distributed Computing Platform</DistributedComputingPlatform>
+  <DomainCode>Kod domeny</DomainCode>
+  <DomainValue>Wartość domeny</DomainValue>
+  <EastBoundLongitude>East Bound Longitude</EastBoundLongitude>
+  <Edition>Edycja</Edition>
+  <EditionDate>Edition Date</EditionDate>
+  <ElectronicMailAddress>Electronic Mail Address</ElectronicMailAddress>
+  <End>End</End>
+  <EnvironmentDescription>Opis środowiska</EnvironmentDescription>
+  <ErrorStatistic>Statystyka błędu</ErrorStatistic>
+  <EvaluationMethodDescription>Opis metody ewaluacji</EvaluationMethodDescription>
+  <EvaluationMethodType>Typ metody ewaluacji</EvaluationMethodType>
+  <ExpiryDate>Expiry Date</ExpiryDate>
+  <Explanation>Wyjaśnienie</Explanation>
+  <ExtentTypeCode>Kod typu zakresu</ExtentTypeCode>
+  <Facsimile>Facsimile</Facsimile>
+  <FeatureInstanceCount>Feature Instance Count</FeatureInstanceCount>
+  <FeatureInstances>Instancje cech</FeatureInstances>
+  <Features>Cechy</Features>
+  <Fees>Opłaty</Fees>
+  <FileDecompressionTechnique>Metoda dekompresji plików</FileDecompressionTechnique>
+  <FileDescription>Opis pliku</FileDescription>
+  <FilmDistortionInformationAvailability>Dostępność informacji o zniekształceniu filmu</FilmDistortionInformationAvailability>
+  <Function>Function</Function>
+  <GeometricObjectCount>Liczba obiektów geometrycznych</GeometricObjectCount>
+  <GeometricObjectType>Typ obiektu geometrycznego</GeometricObjectType>
+  <GeoreferencedParameters>Parametry georeferencyjne</GeoreferencedParameters>
+  <GroundResolution>Ground Resolution</GroundResolution>
+  <HandlingDescription>Obsługa opisu</HandlingDescription>
+  <HoursOfService>Godziny obsługi</HoursOfService>
+  <Id>Id</Id>
+  <IlluminationAzimuthAngle>Kąt kierunku rozsyłu błysku</IlluminationAzimuthAngle>
+  <IlluminationElevationAngle>Kąt uniesienia rozsyłu błysku</IlluminationElevationAngle>
+  <ImagingCondition>Stan obrazowania</ImagingCondition>
+  <IncludedWithDataset>Zawarte wraz ze zbiorem danych</IncludedWithDataset>
+  <IndividualName>Individual Name</IndividualName>
+  <InitiativeType>Typ inicjatywy</InitiativeType>
+  <InvocationName>Invocation Name</InvocationName>
+  <ISBN>ISBN</ISBN>
+  <ISSN>ISSN</ISSN>
+  <IssueIdentification>Issue Identification</IssueIdentification>
+  <Keyword>Keyword</Keyword>
+  <Language>Language</Language>
+  <LanguageCode>Kod języka</LanguageCode>
+  <LatestAcceptableDate>Latest Acceptable Date</LatestAcceptableDate>
+  <LensDistortionInformationAvailability>Dostępność informacji o zniekształceniu obiektywu</LensDistortionInformationAvailability>
+  <Level>Level</Level>
+  <LevelOfDetail>Level Of Detail</LevelOfDetail>
+  <Lineage>Pochodzenie</Lineage>
+  <LotDescription>Lot Description</LotDescription>
+  <MaintenanceAndUpdateFrequency>Dane o konserwacji zasobu (częstotliwości aktualizacji)</MaintenanceAndUpdateFrequency>
+  <MaintenanceNote>Uwagi do konserwacji</MaintenanceNote>
+  <MaxAltitude>Max Altitude</MaxAltitude>
+  <MaximumOccurrence>Maksymalne występowanie</MaximumOccurrence>
+  <MaximumValue>Wartość maksymalna</MaximumValue>
+  <MaxRelativeHumidity>Max Relative Humidity</MaxRelativeHumidity>
+  <MaxValue>Wartość maksymalna</MaxValue>
+  <MeanValue>Mean Value</MeanValue>
+  <MediumFormat>Format nośnika</MediumFormat>
+  <MediumNote>Ocena medium</MediumNote>
+  <MeterologicalConditions>Meterological Conditions</MeterologicalConditions>
+  <MinimumValue>Wartość minimalna</MinimumValue>
+  <MinValue>Wartość minimalna</MinValue>
+  <NameOfMeasure>Nazwa pomiaru</NameOfMeasure>
+  <NominalSpatialResolution>Nominal Spatial Resolution</NominalSpatialResolution>
+  <NorthBoundLatitude>North Bound Latitude</NorthBoundLatitude>
+  <Number>Number</Number>
+  <NumberOfDimensions>Liczba wymiarów</NumberOfDimensions>
+  <NumberOfValues>Number Of Values</NumberOfValues>
+  <NumberType>Number Type</NumberType>
+  <Obligation>Zobowiązanie</Obligation>
+  <Offset>Przesunięcie</Offset>
+  <OperationDescription>Operation Description</OperationDescription>
+  <OperationName>Operation Name</OperationName>
+  <Optionality>Optionality</Optionality>
+  <OrderingInstructions>Instrukcje zamawiania</OrderingInstructions>
+  <OrderOptions>Order Options</OrderOptions>
+  <OrderOptionsType>Order Options Type</OrderOptionsType>
+  <OrganisationName>Nazwa organizacji</OrganisationName>
+  <OrientationParameterAvailability>Dostępność parametru orientacji</OrientationParameterAvailability>
+  <OrientationParameterDescription>Opis parametru orientacji</OrientationParameterDescription>
+  <Other>Pozostałe</Other>
+  <OtherCitationDetails>Other Citation Details</OtherCitationDetails>
+  <OtherConstraints>Pozostałe ograniczenia zasobu</OtherConstraints>
+  <OtherProperty>Other Property</OtherProperty>
+  <OtherPropertyType>Other Property Type</OtherPropertyType>
+  <Page>Page</Page>
+  <ParentEntity>Jednostka nadrzędna</ParentEntity>
+  <PeakResponse>Skrajna odpowiedź</PeakResponse>
+  <PlannedAvailableDateTime>Planowana data i czas dostępności</PlannedAvailableDateTime>
+  <PointInPixel>Punkt w piksel</PointInPixel>
+  <PositionName>Position Name</PositionName>
+  <PostalCode>Kod pocztowy</PostalCode>
+  <PresentationForm>Forma prezentacji</PresentationForm>
+  <ProcedureDescription>Procedure Description</ProcedureDescription>
+  <ProcessingLevel>Processing Level</ProcessingLevel>
+  <Protocol>Protokół</Protocol>
+  <ProtocolRequest>Protocol Request</ProtocolRequest>
+  <Purpose>Cel</Purpose>
+  <RadiometricCalibrationDataAvailability>Dostępność kalibracji datowania izotopowego</RadiometricCalibrationDataAvailability>
+  <RangeElement>Range Element</RangeElement>
+  <Rationale>Uzasadnienie</Rationale>
+  <ReferenceSystemType>Reference System Type</ReferenceSystemType>
+  <Repeatability>Repeatability</Repeatability>
+  <RequestedDateOfCollection>Requested Date Of Collection</RequestedDateOfCollection>
+  <ResourceScope>Resource Scope</ResourceScope>
+  <Response>Response</Response>
+  <ResultScope>Result Scope</ResultScope>
+  <Role>Pełniona funkcja (rola)</Role>
+  <Rule>Reguła</Rule>
+  <RunTimeParameters>Run Time Parameters</RunTimeParameters>
+  <SamplingRatio>Sampling Ratio</SamplingRatio>
+  <SamplingScheme>Sampling Scheme</SamplingScheme>
+  <ScaleFactor>Czynnik skali</ScaleFactor>
+  <ScanningResolution>Scanning Resolution</ScanningResolution>
+  <SchemaAscii>Schemat Ascii</SchemaAscii>
+  <SchemaLanguage>Język schematu</SchemaLanguage>
+  <ScopedName>Scoped Name</ScopedName>
+  <Sequence>Sequence</Sequence>
+  <SequenceIdentifier>Identyfikator sekwencji</SequenceIdentifier>
+  <ServiceType>Service Type</ServiceType>
+  <ServiceTypeVersion>Service Type Version</ServiceTypeVersion>
+  <ShortName>Skrócona nazwa</ShortName>
+  <SoftwareDevelopmentFileFormat>Format pliku tworzenia oprogramowania</SoftwareDevelopmentFileFormat>
+  <SouthBoundLatitude>South Bound Latitude</SouthBoundLatitude>
+  <SpecificUsage>Specyficzne zastosowanie</SpecificUsage>
+  <StandaloneQualityReportDetails>Standalone Quality Report Details</StandaloneQualityReportDetails>
+  <StandardDeviation>Standard Deviation</StandardDeviation>
+  <Statement>Deklaracja</Statement>
+  <Status>Status</Status>
+  <SupplementalInformation>Informacje uzupełniające</SupplementalInformation>
+  <TemporalResolution>Temporal Resolution</TemporalResolution>
+  <Time>Czas</Time>
+  <Title>Tytuł</Title>
+  <ToneGradation>Gradacja tonu</ToneGradation>
+  <TopicCategory>Kategoria tematyczna</TopicCategory>
+  <TopologyLevel>Poziom topologii</TopologyLevel>
+  <TransferFrequency>Transfer Frequency</TransferFrequency>
+  <TransferFunctionType>Transfer Function Type</TransferFunctionType>
+  <TransferSize>Rozmiar transferu</TransferSize>
+  <TransformationDimensionDescription>Opis wymiaru transformacji</TransformationDimensionDescription>
+  <TransformationDimensionMapping>Mapowanie wymiaru transformacji</TransformationDimensionMapping>
+  <TransformationParameterAvailability>Dostępność parametru transformacji</TransformationParameterAvailability>
+  <TransmittedPolarisation>Transmitted Polarisation</TransmittedPolarisation>
+  <TriangulationIndicator>Wskaźnik triangulacji</TriangulationIndicator>
+  <Trigger>Trigger</Trigger>
+  <Turnaround>Obrót</Turnaround>
+  <Type>Typ</Type>
+  <UnitsOfDistribution>Jednostki dystrybucji</UnitsOfDistribution>
+  <UseConstraints>Ograniczenia dotyczące użycia zasobu</UseConstraints>
+  <UseLimitation>Ograniczenia dotyczące korzystania z zasobu</UseLimitation>
+  <UserDeterminedLimitations>Ograniczenia ustalone przez użytkownika</UserDeterminedLimitations>
+  <UserNote>Nota użytkownika</UserNote>
+  <Value>Wartość</Value>
+  <ValueRecordType>Value Record Type</ValueRecordType>
+  <ValueType>Typ wartości</ValueType>
+  <Version>Wersja</Version>
+  <Vertical>Vertical</Vertical>
+  <Voice>Voice</Voice>
+  <Volumes>Objętości</Volumes>
+  <WestBoundLongitude>West Bound Longitude</WestBoundLongitude>
+  <Date>Data</Date>
+  <Linkage>Linkage</Linkage>
+  <Resolution>Rozdzielczość</Resolution>
+  <FileName>Nazwa pliku</FileName>
+  <FileType>Typ pliku</FileType>
+  <Pass>Stopień zgodności (zgodność)</Pass>
+  <GraphicsFile>Plik graficzny</GraphicsFile>
+  <Specification>Specyfikacja</Specification>
+  <SoftwareDevelopmentFile>Plik tworzenia oprogramowania</SoftwareDevelopmentFile>
+  <Priority>Priority</Priority>
+  <Name>Nazwa</Name>
+  <ISOMetadata>Metadane ISO</ISOMetadata>
+  <Overview>Podgląd</Overview>
+  <ContactInformation>Informacje kontaktowe</ContactInformation>
+  <SpatialRepresentation>Reprezentacja przestrzenna</SpatialRepresentation>
+  <ReferenceSystem>Układ odniesienia</ReferenceSystem>
+  <MetadataExtensionInformation>Informacje o rozszerzeniu metadanych</MetadataExtensionInformation>
+  <Identification>Informacje o zasobie</Identification>
+  <ContentInformation>Informacje o zawartości</ContentInformation>
+  <DistributionInformation>Informacje o dystrybucji zasobu</DistributionInformation>
+  <DataQualityInformation>Informacje o jakości danych</DataQualityInformation>
+  <PortrayalCatalogueInformation>Informacje o odzwierciedleniu katalogu</PortrayalCatalogueInformation>
+  <ApplicationSchemaInformation>Informacje o schemacie aplikacji</ApplicationSchemaInformation>
+  <Describes>Opisuje</Describes>
+  <PropertyType>Typ właściwości</PropertyType>
+  <FeatureType>Typ obiektu</FeatureType>
+  <FeatureAttribute>Atrybut obiektu</FeatureAttribute>
+  <Metadata>Metadane</Metadata>
+  <FileIdentifier>Identyfikator pliku</FileIdentifier>
+  <DataSetURI>Adres sieciowy zbioru danych (URI)</DataSetURI>
+  <DateStamp>Znacznik daty</DateStamp>
+  <MetadataStandardVersion>Wersja normy dla metadanych</MetadataStandardVersion>
+  <MetadataStandardName>Tytuł normy dla metadanych</MetadataStandardName>
+  <ObligationCode>Kod zobowiązania</ObligationCode>
+  <DatatypeCode>Kod typu danych</DatatypeCode>
+  <DatatypeCode_codelistElement>element listy kodu</DatatypeCode_codelistElement>
+  <DatatypeCode_abstractClass>klasa podsumowania</DatatypeCode_abstractClass>
+  <DatatypeCode_aggregateClass>klasa zbiorowa</DatatypeCode_aggregateClass>
+  <DatatypeCode_specifiedClass>klasa wyszczególniona</DatatypeCode_specifiedClass>
+  <DatatypeCode_datatypeClass>klasa typu danych</DatatypeCode_datatypeClass>
+  <DatatypeCode_interfaceClass>klasa interfejsu</DatatypeCode_interfaceClass>
+  <DatatypeCode_unionClass>klasa unii</DatatypeCode_unionClass>
+  <DatatypeCode_metaClass>klasa meta</DatatypeCode_metaClass>
+  <DatatypeCode_typeClass>klasa typu</DatatypeCode_typeClass>
+  <DatatypeCode_characterString>ciąg znaków</DatatypeCode_characterString>
+  <PortrayalCatalogueReference>Odsyłacz obrazu katalogu</PortrayalCatalogueReference>
+  <AbstractSpatialRepresentation>Podsumowanie reprezentacji przestrzennej</AbstractSpatialRepresentation>
+  <GridSpatialRepresentation>Siatka reprezentacji przestrzennej</GridSpatialRepresentation>
+  <DimensionNameTypeCode>Kod typu nazwy wymiaru</DimensionNameTypeCode>
+  <DimensionNameTypeCode_crossTrack>skrzyżowanie śladów</DimensionNameTypeCode_crossTrack>
+  <CellGeometryCode>Kod geometrii komórki</CellGeometryCode>
+  <MD_CellGeometryCode_point>punkt</MD_CellGeometryCode_point>
+  <MD_CellGeometryCode_area>obszar</MD_CellGeometryCode_area>
+  <PixelOrientationCode>Kod orientacji pikseli</PixelOrientationCode>
+  <PixelOrientationCode_lowerLeft>dolny lewy</PixelOrientationCode_lowerLeft>
+  <PixelOrientationCode_lowerRight>dolny prawy</PixelOrientationCode_lowerRight>
+  <PixelOrientationCode_upperLeft>górny lewy</PixelOrientationCode_upperLeft>
+  <PixelOrientationCode_upperRight>górny prawy</PixelOrientationCode_upperRight>
+  <Georectified>Geokorygowany</Georectified>
+  <CenterPoint>Punkt środkowy</CenterPoint>
+  <VectorSpatialRepresentation>Reprezentacja przestrzenna wektora</VectorSpatialRepresentation>
+  <Georeferenceable>Georeferencyjność</Georeferenceable>
+  <MD_TopologyLevelCode>Kod poziomu topologii</MD_TopologyLevelCode>
+  <MD_TopologyLevelCode_geometryOnly>tylko geometria</MD_TopologyLevelCode_geometryOnly>
+  <MD_TopologyLevelCode_topology1D>jednowymiarowa topologia</MD_TopologyLevelCode_topology1D>
+  <MD_TopologyLevelCode_planarGraph>graf planarny</MD_TopologyLevelCode_planarGraph>
+  <MD_TopologyLevelCode_fullPlanarGraph>pełny graf planarny</MD_TopologyLevelCode_fullPlanarGraph>
+  <MD_TopologyLevelCode_surfaceGraph>graf powierzchniowy</MD_TopologyLevelCode_surfaceGraph>
+  <MD_TopologyLevelCode_fullSurfaceGraph>pełny graf powierzchniowy</MD_TopologyLevelCode_fullSurfaceGraph>
+  <MD_TopologyLevelCode_topology3D>trójwymiarowa topologia</MD_TopologyLevelCode_topology3D>
+  <MD_TopologyLevelCode_fullTopology3D>pełna trójwymiarowa topologia</MD_TopologyLevelCode_fullTopology3D>
+  <CI_RoleCode_ResourceProvider>Dostawca danych</CI_RoleCode_ResourceProvider>
+  <CI_RoleCode_Custodian>Opiekun (konserwator)</CI_RoleCode_Custodian>
+  <CI_RoleCode_Owner>Właściciel</CI_RoleCode_Owner>
+  <CI_RoleCode_User>Użytkownik</CI_RoleCode_User>
+  <CI_RoleCode_Distributor>Dystrybutor</CI_RoleCode_Distributor>
+  <CI_RoleCode_Originator>Twórca</CI_RoleCode_Originator>
+  <CI_RoleCode_PointOfContact>Punkt kontaktowy</CI_RoleCode_PointOfContact>
+  <CI_RoleCode_PrincipalInvestigator>Naukowiec, badacz</CI_RoleCode_PrincipalInvestigator>
+  <CI_RoleCode_Processor>Przetwórca</CI_RoleCode_Processor>
+  <CI_RoleCode_Author>Autor redakcji</CI_RoleCode_Author>
+  <CI_RoleCode_Publisher>Wydawca</CI_RoleCode_Publisher>
+  <VoiceTelephone>Telefon</VoiceTelephone>
+  <FacsimileTelephone>Telefax</FacsimileTelephone>
+  <Position>Pozycja</Position>
+  <Email>E-mail</Email>
+  <Street>Ulica</Street>
+  <State>Stan</State>
+  <Dates>Daty</Dates>
+  <CI_OnLineFunctionCode_Information>Informacje</CI_OnLineFunctionCode_Information>
+  <CI_OnLineFunctionCode_Download>Pobieranie</CI_OnLineFunctionCode_Download>
+  <CI_OnLineFunctionCode_OfflineAccess>Dostęp offline</CI_OnLineFunctionCode_OfflineAccess>
+  <CI_OnLineFunctionCode_Order>Zamówienie</CI_OnLineFunctionCode_Order>
+  <CI_OnLineFunctionCode_Search>Wyszukanie</CI_OnLineFunctionCode_Search>
+  <CI_PresentationFormCode_DigitalDocument>Dokument cyfrowy</CI_PresentationFormCode_DigitalDocument>
+  <CI_PresentationFormCode_HardcopyDocument>Kopia dokumentu</CI_PresentationFormCode_HardcopyDocument>
+  <CI_PresentationFormCode_DigitalImage>Obraz cyfrowy</CI_PresentationFormCode_DigitalImage>
+  <CI_PresentationFormCode_HardcopyImage>Kopia obrazu</CI_PresentationFormCode_HardcopyImage>
+  <CI_PresentationFormCode_DigitalMap>Mapa cyfrowa</CI_PresentationFormCode_DigitalMap>
+  <CI_PresentationFormCode_HardcopyMap>Kopia mapy</CI_PresentationFormCode_HardcopyMap>
+  <CI_PresentationFormCode_DigitalModel>Model cyfrowy</CI_PresentationFormCode_DigitalModel>
+  <CI_PresentationFormCode_HardcopyModel>Kopia modelu</CI_PresentationFormCode_HardcopyModel>
+  <CI_PresentationFormCode_DigitalProfile>Profil cyfrowy</CI_PresentationFormCode_DigitalProfile>
+  <CI_PresentationFormCode_HardcopyProfile>Kopia profilu</CI_PresentationFormCode_HardcopyProfile>
+  <CI_PresentationFormCode_DigitalTable>Tabela cyfrowa</CI_PresentationFormCode_DigitalTable>
+  <CI_PresentationFormCode_HardcopyTable>Kopia tabeli</CI_PresentationFormCode_HardcopyTable>
+  <CI_PresentationFormCode_DigitalVideo>Video cyfrowe</CI_PresentationFormCode_DigitalVideo>
+  <CI_PresentationFormCode_HardcopyVideo>Kopia video</CI_PresentationFormCode_HardcopyVideo>
+  <Link>Link</Link>
+  <LegalConstraints>Ograniczenia prawne zasobu</LegalConstraints>
+  <Constraints>Ograniczenia</Constraints>
+  <SecurityConstraints>Ograniczenia dotyczące bezpieczeństwa zasobu</SecurityConstraints>
+  <Band>Zakres</Band>
+  <AbstractContentInformation>Informacja o zawartości streszczenia</AbstractContentInformation>
+  <ImagingConditionCode>Kod stanu obrazowania</ImagingConditionCode>
+  <CoverageContentTypeCode>Kod typu zawartości pokrycia terenu</CoverageContentTypeCode>
+  <FeatureCatalogueDescription>Opis katalogu obiektów</FeatureCatalogueDescription>
+  <CoverageDescription>Opis pokrycia terenu</CoverageDescription>
+  <RangeDimension>Rozmiar zakresu</RangeDimension>
+  <ImageDescription>Opis obrazu</ImageDescription>
+  <GriddedDataPositionalAccuracy>Dokładność pozycjonowania danych tabelarycznych</GriddedDataPositionalAccuracy>
+  <QuantitativeAttributeAccuracy>Dokładność parametrów ilościowych</QuantitativeAttributeAccuracy>
+  <NonQuantitativeAttributeAccuracy>Dokładność parametrów nieilościowych</NonQuantitativeAttributeAccuracy>
+  <FormatConsistency>Spójność formatu</FormatConsistency>
+  <AbstractTemporalAccuracy>Streszczenie dokładności czasowej</AbstractTemporalAccuracy>
+  <AbstractLogicalConsistency>Streszczenie spójności logicznej</AbstractLogicalConsistency>
+  <AbstractPositionalAccuracy>Streszczenie dokładności pozycjonowania</AbstractPositionalAccuracy>
+  <AbstractThematicAccuracy>Streszczenie dokładności tematycznej</AbstractThematicAccuracy>
+  <DQ_EvaluationMethodTypeCode_direct>bezpośredni</DQ_EvaluationMethodTypeCode_direct>
+  <DQ_EvaluationMethodTypeCode_internal>wewnętrzny</DQ_EvaluationMethodTypeCode_internal>
+  <DQ_EvaluationMethodTypeCode_external>zewnętrzny</DQ_EvaluationMethodTypeCode_external>
+  <ThematicClassificationCorrectness>Poprawność klasyfikacji tematycznej</ThematicClassificationCorrectness>
+  <RelativeInternalPositionalAccuracy>Względna wewnętrzna dokładność pozycjonowania</RelativeInternalPositionalAccuracy>
+  <ConceptualConsistency>Spójność koncepcyjna</ConceptualConsistency>
+  <CompletenessCommission>Komisja kompletności</CompletenessCommission>
+  <AbsoluteExternalPositionalAccuracy>Bezwzględna zewnętrzna dokładność pozycjonowania</AbsoluteExternalPositionalAccuracy>
+  <QuantitativeResult>Wynik ilościowy</QuantitativeResult>
+  <DataQuality>Jakość danych</DataQuality>
+  <CompletenessOmission>Pominięcie kompletności</CompletenessOmission>
+  <AccuracyOfATimeMeasurement>Dokładność pomiaru czasu</AccuracyOfATimeMeasurement>
+  <ConformanceResult>Wynik zgodny</ConformanceResult>
+  <AbstractCompleteness>Kompletność streszczenia</AbstractCompleteness>
+  <TemporalValidity>Poprawność czasowa</TemporalValidity>
+  <AbstractElement>Element streszczenia</AbstractElement>
+  <TemporalConsistency>Spójność czasowa</TemporalConsistency>
+  <DomainConsistency>Spójność domeny</DomainConsistency>
+  <Unit>Jednostka</Unit>
+  <AbstractResult>Wynik podsumowania</AbstractResult>
+  <TopologicalConsistency>Zgodność topologiczna</TopologicalConsistency>
+  <DistributionUnits>Jednostki dystrybucji</DistributionUnits>
+  <Format>Format</Format>
+  <StandardOrderProcess>Proces standardowego zamówienia</StandardOrderProcess>
+  <MediumNameCode>Kod nazwy nośnika</MediumNameCode>
+  <MD_MediumNameCode_cdRom>CD-ROM</MD_MediumNameCode_cdRom>
+  <MD_MediumNameCode_dvdRom>DVD-ROM</MD_MediumNameCode_dvdRom>
+  <MD_MediumNameCode_threeHalfInchFloppy>dyskietka 3.5 cala</MD_MediumNameCode_threeHalfInchFloppy>
+  <MD_MediumNameCode_fiveQuarterInchFloppy>dyskietka 5.25 cala</MD_MediumNameCode_fiveQuarterInchFloppy>
+  <MD_MediumNameCode_sevenTrackTape>taśma 7 śladowa</MD_MediumNameCode_sevenTrackTape>
+  <MD_MediumNameCode_nineTrackTape>taśma 9 śladowa</MD_MediumNameCode_nineTrackTape>
+  <MD_MediumNameCode_cartridge3480>kartridż 3480</MD_MediumNameCode_cartridge3480>
+  <MD_MediumNameCode_cartridge3490>kartridż 3490</MD_MediumNameCode_cartridge3490>
+  <MD_MediumNameCode_cartridge3580>kartridż 3580</MD_MediumNameCode_cartridge3580>
+  <MD_MediumNameCode_fourMmCartridgeTape>taśma kartridża 4mm</MD_MediumNameCode_fourMmCartridgeTape>
+  <MD_MediumNameCode_eightMmCartridgeTape>taśma kartridża 8mm</MD_MediumNameCode_eightMmCartridgeTape>
+  <MD_MediumNameCode_quarterInchCartridgeTape>taśma kartridża 0.25 mm</MD_MediumNameCode_quarterInchCartridgeTape>
+  <MD_MediumNameCode_digitalLinearTape>cyfrowa taśma liniowa</MD_MediumNameCode_digitalLinearTape>
+  <MD_MediumNameCode_onLine>on-line</MD_MediumNameCode_onLine>
+  <MD_MediumNameCode_telephoneLink>łącze telefoniczne</MD_MediumNameCode_telephoneLink>
+  <MediumFormatCode>Format kodu medium</MediumFormatCode>
+  <MD_MediumFormatCode_iSO9660>ISO 9660</MD_MediumFormatCode_iSO9660>
+  <MD_MediumFormatCode_iSO9660RockRidge>ISO 9660 Rock Ridge</MD_MediumFormatCode_iSO9660RockRidge>
+  <MD_MediumFormatCode_iSO9960AppleHFS>ISO 9960 Apple HFS</MD_MediumFormatCode_iSO9960AppleHFS>
+  <DigitalTransferOptions>Opcje cyfrowego transferu</DigitalTransferOptions>
+  <GeographicDescription>Opis geograficzny</GeographicDescription>
+  <ExtentTypeCode_exclusive>wyłączając</ExtentTypeCode_exclusive>
+  <ExtentTypeCode_inclusive>włączając</ExtentTypeCode_inclusive>
+  <North>Północ</North>
+  <South>Południe</South>
+  <West>Zachód</West>
+  <East>Wschód</East>
+  <AbstractGeographicExtent>Streszczenie zakresu przestrzennego</AbstractGeographicExtent>
+  <SpatialTemporalExtent>Tymczasowy zakres przestrzenny</SpatialTemporalExtent>
+  <TemporalExtent>Zakres tymczasowy</TemporalExtent>
+  <BoundingPolygon>Wielokąt okalający</BoundingPolygon>
+  <FreeText>Wolny tekst</FreeText>
+  <LocaleContainer>Kontener ustawień lokalnych</LocaleContainer>
+  <Usage>Użycie</Usage>
+  <BrowseGraphic>Przeglądaj grafikę</BrowseGraphic>
+  <ProgressCode>Kod postępu</ProgressCode>
+  <AssociationTypeCode>Kod typu powiązania</AssociationTypeCode>
+  <DS_AssociationTypeCode_source>źródło</DS_AssociationTypeCode_source>
+  <Keywords>Słowa kluczowe</Keywords>
+  <Languages>Języki</Languages>
+  <ServiceIdentification>Identyfikacja skali</ServiceIdentification>
+  <KeywordTypeCode>Typ słów kluczowych</KeywordTypeCode>
+  <Association>Asocjacja</Association>
+  <InitiativeTypeCode>Kod typu inicjatywy</InitiativeTypeCode>
+  <HierarchyLevelName>Nazwa poziomu w hierarchii</HierarchyLevelName>
+  <HierarchyLevel>Poziom w hierarchii</HierarchyLevel>
+  <ParentIdentifier>Identyfikator rodzica</ParentIdentifier>
+  <StereoMate>Pomocnik Stereo</StereoMate>
+  <Initiative>Początkowe</Initiative>
+  <ProductionSeries>Serie produkcyjne</ProductionSeries>
+  <OtherAggregate>Inne agregaty</OtherAggregate>
+  <AbstractAggregate>Abstrakcyjny agregat</AbstractAggregate>
+  <Sensor>Sensor</Sensor>
+  <MaintenanceInformation>Dane o konserwacji zasobu</MaintenanceInformation>
+  <ScopeDescription>Zakres</ScopeDescription>
+  <AggregateInformation>Informacje podsumowujące</AggregateInformation>
+  <MD_SpatialRepresentationTypeCode>Kod typu reprezentacji przestrzennej</MD_SpatialRepresentationTypeCode>
+  <RepresentativeFraction>Frakcja reprezentatywna</RepresentativeFraction>
+  <AbstractIdentification>Abstrakcyjna identyfikacja</AbstractIdentification>
+  <TableOfContents>Table Of Contents</TableOfContents>
+  <GeneralInformation>General Information</GeneralInformation>
+  <ToTheTop>Back To Table Of Contents</ToTheTop>
+  <CI_OnLineFunctionCode_CompleteMetadata>Complete Metadata</CI_OnLineFunctionCode_CompleteMetadata>
+  <CI_OnLineFunctionCode_BrowseGraphic>Browse Graphic</CI_OnLineFunctionCode_BrowseGraphic>
+  <CI_OnLineFunctionCode_Upload>Upload</CI_OnLineFunctionCode_Upload>
+  <CI_OnLineFunctionCode_EmailService>Email Service</CI_OnLineFunctionCode_EmailService>
+  <CI_OnLineFunctionCode_Browsing> Browsing </CI_OnLineFunctionCode_Browsing>
+  <CI_OnLineFunctionCode_FileAccess>File Access</CI_OnLineFunctionCode_FileAccess>
+  <CI_PresentationFormCode_DigitalAudio>Digital audio</CI_PresentationFormCode_DigitalAudio>
+  <CI_PresentationFormCode_HardcopyAudio>Hardcopy audio</CI_PresentationFormCode_HardcopyAudio>
+  <CI_PresentationFormCode_DigitalMultimedia>Digital multimedia</CI_PresentationFormCode_DigitalMultimedia>
+  <CI_PresentationFormCode_HardcopyMultimedia>Hardcopy multimedia</CI_PresentationFormCode_HardcopyMultimedia>
+  <CI_PresentationFormCode_DigitalPhysical>Digital physical</CI_PresentationFormCode_DigitalPhysical>
+  <CI_PresentationFormCode_DigitalDiagram>Digital diagram</CI_PresentationFormCode_DigitalDiagram>
+  <CI_PresentationFormCode_HardcopyDiagram>Hardcopy diagram</CI_PresentationFormCode_HardcopyDiagram>
+  <CI_RoleCode_Sponsor>Sponsor</CI_RoleCode_Sponsor>
+  <CI_RoleCode_CoAuthor>Co Author</CI_RoleCode_CoAuthor>
+  <CI_RoleCode_Collaborator>Collaborator</CI_RoleCode_Collaborator>
+  <CI_RoleCode_Editor>Editor</CI_RoleCode_Editor>
+  <CI_RoleCode_Mediator>Mediator</CI_RoleCode_Mediator>
+  <CI_RoleCode_RightsHolder>Rights Holder</CI_RoleCode_RightsHolder>
+  <CI_RoleCode_Contributor>Contributor</CI_RoleCode_Contributor>
+  <CI_RoleCode_Funder>Funder</CI_RoleCode_Funder>
+  <CI_RoleCode_Stakeholder>Stakeholder</CI_RoleCode_Stakeholder>
+  <CatalogSymbol>Catalog Symbol</CatalogSymbol>
+  <SatisfiedPlan>Satisfied Plan</SatisfiedPlan>
+  <Patches>Patches</Patches>
+  <Interior>Interior</Interior>
+  <Exterior>Exterior</Exterior>
+  <Pos>Pos</Pos>
+  <TimeInstant>Time Instant</TimeInstant>
+  <TimePeriod>Time Period</TimePeriod>
+  <Party_Individual>Individual Party</Party_Individual>
+  <Party_Organisation>Organisation Party</Party_Organisation>
+  <GeographicBoundingBox>Geographic Bounding Box</GeographicBoundingBox>
+  <ImageSecurityConstraints>Image Security Constraints</ImageSecurityConstraints>
+  <ImageLegalConstraints>Image Legal Constraints</ImageLegalConstraints>
+  <ResourceSecurityConstraints>Resource Security Constraints</ResourceSecurityConstraints>
+  <ResourceLegalConstraints>Resource Legal Constraints</ResourceLegalConstraints>
+  <MetadataSecurityConstraints>Metadata Security Constraints</MetadataSecurityConstraints>
+  <MetadataLegalConstraints>Metadata Legal Constraints</MetadataLegalConstraints>
+  <DataIdentification>Data Identification</DataIdentification>
+  <DQ_IndirectEvaluation>Indirect Evaluation Method</DQ_IndirectEvaluation>
+  <DQ_FullInspection>Full Inspection Evaluation Method</DQ_FullInspection>
+  <DQ_AggregationDerivation>Aggregation Derivation Evaluation Method</DQ_AggregationDerivation>
+  <DQ_SampleBasedInspection>Sample Based Inspection Evaluation Method</DQ_SampleBasedInspection>
+  <DQ_DataInspection>Data Inspection Evaluation Method</DQ_DataInspection>
+  <DomainConsistencyResult>Domain Consistency Result</DomainConsistencyResult>
+  <DescriptiveResult>Descriptive Result</DescriptiveResult>
+  <CoverageResult>Coverage Result</CoverageResult>
+  <GeoreferenceableSpatialRepresentation>Georeferenceable Spatial Representation</GeoreferenceableSpatialRepresentation>
+  <GeorectifiedSpatialRepresentation>Georectified Spatial Representation</GeorectifiedSpatialRepresentation>
+  <ResultCoverageDescription>Result Coverage Description</ResultCoverageDescription>
+  <ResultImageDescription>Result Image Description</ResultImageDescription>
+  <ResultFeatureCatalogueDescription>Result Feature Catalogue Description</ResultFeatureCatalogueDescription>
+  <SampleDimension>Sample Dimension</SampleDimension>
+  <NonQuantitativeAttributeCorrectness>Non Quantitative Attribute Correctness</NonQuantitativeAttributeCorrectness>
+  <Report_AccuracyOfATimeMeasurement>Accuracy Of A Time Measurement Report</Report_AccuracyOfATimeMeasurement>
+  <AccuracyReport_AccuracyOfATimeMeasurement>Accuracy Of A Time Measurement Report</AccuracyReport_AccuracyOfATimeMeasurement>
+  <Report_DomainConsistency>Domain Consistency Report</Report_DomainConsistency>
+  <AccuracyReport_DomainConsistency>Domain Consistency Accuracy Report</AccuracyReport_DomainConsistency>
+  <Report_TemporalConsistency>Temporal Consistency Report</Report_TemporalConsistency>
+  <AccuracyReport_TemporalConsistency>Temporal Consistency Accuracy Report</AccuracyReport_TemporalConsistency>
+  <Report_TopologicalConsistency>Topological Consistency Report</Report_TopologicalConsistency>
+  <AccuracyReport_TopologicalConsistency>Topological Consistency Accuracy Report</AccuracyReport_TopologicalConsistency>
+  <Report_ThematicClassificationCorrectness>Thematic Classification Correctness Report</Report_ThematicClassificationCorrectness>
+  <AccuracyReport_ThematicClassificationCorrectness>Thematic Classification Correctness Accuracy Report</AccuracyReport_ThematicClassificationCorrectness>
+  <Report_NonQuantitativeAttributeCorrectness>Non Quantitative Attribute Correctness Report</Report_NonQuantitativeAttributeCorrectness>
+  <AccuracyReport_NonQuantitativeAttributeCorrectness>Non Quantitative Attribute Correctness Accuracy Report</AccuracyReport_NonQuantitativeAttributeCorrectness>
+  <Report_AbsoluteExternalPositionalAccuracy>Absolute External Positional Accuracy Report</Report_AbsoluteExternalPositionalAccuracy>
+  <AccuracyReport_AbsoluteExternalPositionalAccuracy>Absolute External Positional Accuracy Report</AccuracyReport_AbsoluteExternalPositionalAccuracy>
+  <Report_ConceptualConsistency>Conceptual Consistency Report</Report_ConceptualConsistency>
+  <AccuracyReport_ConceptualConsistency>Conceptual Consistency Accuracy Report</AccuracyReport_ConceptualConsistency>
+  <Report_QuantitativeAttributeAccuracy>Quantitative Attribute Accuracy Report</Report_QuantitativeAttributeAccuracy>
+  <AccuracyReport_QuantitativeAttributeAccuracy>Quantitative Attribute Accuracy Report</AccuracyReport_QuantitativeAttributeAccuracy>
+  <Report_CompletenessOmission>Completeness Omission Report</Report_CompletenessOmission>
+  <AccuracyReport_CompletenessOmission>Completeness Omission Accuracy Report</AccuracyReport_CompletenessOmission>
+  <Report_FormatConsistency>Format Consistency Report</Report_FormatConsistency>
+  <AccuracyReport_FormatConsistency>Format Consistency Accuracy Report</AccuracyReport_FormatConsistency>
+  <Report_TemporalValidity>Temporal Validity Report</Report_TemporalValidity>
+  <AccuracyReport_TemporalValidity>Temporal Validity Accuracy Report</AccuracyReport_TemporalValidity>
+  <Report_RelativeInternalPositionalAccuracy>Relative Internal Positional Accuracy Report</Report_RelativeInternalPositionalAccuracy>
+  <AccuracyReport_RelativeInternalPositionalAccuracy>Relative Internal Positional Accuracy Report</AccuracyReport_RelativeInternalPositionalAccuracy>
+  <Report_CompletenessCommission>Completeness Commission Report</Report_CompletenessCommission>
+  <AccuracyReport_CompletenessCommission>Accuracy Report Completeness Commission</AccuracyReport_CompletenessCommission>
+  <Report_GriddedDataPositionalAccuracy>Gridded Data ositional Accuracy Report</Report_GriddedDataPositionalAccuracy>
+  <AccuracyReport_GriddedDataPositionalAccuracy>Gridded Data ositional Accuracy Report</AccuracyReport_GriddedDataPositionalAccuracy>
+  <Report_ProcessStepReport> Process Step Report</Report_ProcessStepReport>
+  <AccuracyReport_ProcessStepReport> Process Step Accuracy Report</AccuracyReport_ProcessStepReport>
+  <Report_UsabilityElement>Usability Element Report</Report_UsabilityElement>
+  <AccuracyReport_UsabilityElement>Usability Element Accuracy Report</AccuracyReport_UsabilityElement>
+  <Report_NonQuantitativeAttributeAccuracy>Non Quantitative Attribute Accuracy Report</Report_NonQuantitativeAttributeAccuracy>
+  <AccuracyReport_NonQuantitativeAttributeAccuracy>Non Quantitative Attribute Accuracy Report</AccuracyReport_NonQuantitativeAttributeAccuracy>
+  <Report_Usability>Usability Report</Report_Usability>
+  <AccuracyReport_Usability>Usability Accuracy Report</AccuracyReport_Usability>
+  <DerivedElement_AccuracyOfATimeMeasurement>Accuracy Of A Time Measurement Derived Element</DerivedElement_AccuracyOfATimeMeasurement>
+  <DerivedElement_DomainConsistency>Domain Consistency Derived Element</DerivedElement_DomainConsistency>
+  <DerivedElement_TemporalConsistency>Temporal Consistency Derived Element</DerivedElement_TemporalConsistency>
+  <DerivedElement_TopologicalConsistency>Topological Consistency Derived Element</DerivedElement_TopologicalConsistency>
+  <DerivedElement_ThematicClassificationCorrectness>Thematic Classification Correctness Derived Element</DerivedElement_ThematicClassificationCorrectness>
+  <DerivedElement_NonQuantitativeAttributeCorrectness>Non Quantitative Attribute Correctness Derived Element</DerivedElement_NonQuantitativeAttributeCorrectness>
+  <DerivedElement_AbsoluteExternalPositionalAccuracy>Absolute External Positional Accuracy Derived Element</DerivedElement_AbsoluteExternalPositionalAccuracy>
+  <DerivedElement_ConceptualConsistency>Conceptual Consistency Derived Element</DerivedElement_ConceptualConsistency>
+  <DerivedElement_QuantitativeAttributeAccuracy>Quantitative Attribute Accuracy Derived Element</DerivedElement_QuantitativeAttributeAccuracy>
+  <DerivedElement_CompletenessOmission>Completeness Omission Derived Element</DerivedElement_CompletenessOmission>
+  <DerivedElement_FormatConsistency>Format Consistency Derived Element</DerivedElement_FormatConsistency>
+  <DerivedElement_TemporalValidity>Temporal Validity Derived Element</DerivedElement_TemporalValidity>
+  <DerivedElement_RelativeInternalPositionalAccuracy>Relative Internal Positional Accuracy Derived Element</DerivedElement_RelativeInternalPositionalAccuracy>
+  <DerivedElement_CompletenessCommission>Completeness Commission Derived Element</DerivedElement_CompletenessCommission>
+  <DerivedElement_GriddedDataPositionalAccuracy>Gridded Data Positional Accuracy Derived Element</DerivedElement_GriddedDataPositionalAccuracy>
+  <DerivedElement_ProcessStepReport>Process Step Report Derived Element</DerivedElement_ProcessStepReport>
+  <DerivedElement_UsabilityElement>Usability Element Derived Element</DerivedElement_UsabilityElement>
+  <DerivedElement_NonQuantitativeAttributeAccuracy>Non Quantitative Attribute Accuracy Derived Element</DerivedElement_NonQuantitativeAttributeAccuracy>
+  <DerivedElement_Usability>Usability  Derived Element</DerivedElement_Usability>
+</lang>

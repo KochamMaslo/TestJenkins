@@ -1,0 +1,12 @@
+<div style="background: #CCCCCC; border: 2px solid #002288">
+<table>
+<tr>
+<td style="font-weight:bold; text-align:right; vertical-align: top;">Id:</td>
+<td>{ID}</td>
+</tr>
+<tr>
+<td style="font-weight:bold; text-align:right; vertical-align: top;">Name:</td>
+<td>{Name}</td>
+</tr>
+</table>
+</div>

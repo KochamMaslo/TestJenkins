@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<langs id="languages">
+	<ar>locale_cat_ARA</ar>
+	<bg>locale_bul_BUL</bg>	
+	<ca>locale_cat_CAT</ca>	
+	<cs>locale_cze_CZE</cs>	
+	<da>locale_dan_DAN</da>
+	<de>locale_ger_GER</de>
+	<el>locale_gre_GRE</el>
+	<en>locale_eng_ENG</en>
+	<es>locale_spa_SPA</es>
+	<eu>locale_baq_BAQ</eu>
+	<fr>locale_fra_FRA</fr>
+	<gl>locale_glg_GLG</gl>
+	<he>locale_heb_HEB</he>
+	<hi>locale_hin_HIN</hi>
+	<hu>locale_hun_HUN</hu>
+	<it>locale_ita_ITA</it>
+	<ja>locale_jpn_JPN</ja>
+	<lv>locale_lav_LAV</lv>
+	<ms>locale_may_MAY</ms>
+	<nl>locale_dut_DUT</nl>
+	<pl>locale_pol_POL</pl>
+	<pt>locale_por_POR</pt>
+	<ro>locale_rum_RUM</ro>
+	<ru>locale_rus_RUS</ru>
+	<sk>locale_slo_SLO</sk>
+	<sr>locale_srp_SRP</sr>
+	<sv>locale_swe_SWE</sv>
+	<tr>locale_tur_TUR</tr>
+	<zh>locale_zho_ZHO</zh>
+</langs>

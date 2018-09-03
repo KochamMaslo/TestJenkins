@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lang id="POLISH">
+	<DescribeFeatureTypeDocument>Dokument Describe Feature Type</DescribeFeatureTypeDocument>
+	<Elements>Elementy</Elements>
+	<Name>Nazwa</Name>
+	<Type>Typ</Type>
+	<SubstitutionGroup>Grupa zamiany</SubstitutionGroup>
+	<Attributes>Atrybuty</Attributes>
+	<EnumerationAndCodeLists>Wyliczenie oraz listy kodów</EnumerationAndCodeLists>
+	<ImportedNamespaces>Zaimportowane przestrzenie nazw</ImportedNamespaces>
+</lang>

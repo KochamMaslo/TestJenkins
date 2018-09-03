@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lang id="POLISH">
+  <ServiceName>Nazwa serwisu</ServiceName>
+	<Abstract>Podsumowanie</Abstract>
+  <Keywords>Słowa kluczowe</Keywords>
+  <ServiceVersion>Wersja</ServiceVersion>
+  <ServiceInformation>DANE SERWISU</ServiceInformation>
+  <ServiceProvider>DOSTAWCA SERWISU</ServiceProvider>
+  <ContactInformation>Osoba do kontaktu</ContactInformation>
+  <IndividualName>Imię i nazwisko</IndividualName>
+  <ProviderName>Nazwa dostawcy</ProviderName>
+  <ContactPosition>Stanowisko</ContactPosition>
+  <Phone>Telefon</Phone>
+	<Address>Adres</Address>
+	<EmailContact>E-mail</EmailContact>
+  <MetadataSection>METADANE</MetadataSection>
+  <Requests>Zapytania</Requests>
+  <Format>Format</Format>
+  <OnlineResource>Zasób sieciowy</OnlineResource>
+  <RequestMethod>Typ żądania</RequestMethod>
+  <Layers>Warstwy</Layers>
+  <SRS>SRS</SRS>
+  <BoundingBox>Zasięg</BoundingBox>
+  <LayersCount>Liczba warst</LayersCount>
+</lang>

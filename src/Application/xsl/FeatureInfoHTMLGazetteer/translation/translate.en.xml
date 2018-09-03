@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lang id="ENGLISH">
+	<Details>Details</Details>
+	<FeatureId>Feature ID</FeatureId>
+	<AlternativeIdentifier>Alternative identifier</AlternativeIdentifier>
+	<GeographicExtent>Geographic extent</GeographicExtent>
+	<LocationType>Location type</LocationType>
+	<Geometry>Geometry</Geometry>
+	<SrsName>Srs name</SrsName>
+	<Coordinates>Coordinates</Coordinates>
+</lang>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lang id="POLISH">
+	<guide>
+		<topic>
+			<heading>GeoMedia SDI Portal</heading>
+			<body>GeoMedia ® SDI Portal jest aplikacją internetową, która pełni rolę klienta usług SDI (ang. Spatial Data Infrastructure – Infrastruktura Danych Przestrzennych). Aplikacja jest instalowana i konfigurowana na serwerze aplikacji dla wielu użytkowników, którzy mogą z niej korzystać za pomocą przeglądarki internetowej. Aplikacja służy do przeglądania i dokonywania zapytań o dane geoprzestrzenne opublikowane przy pomocy standardowych usług SDI, takich jak OGC WMS (ang. Web Map Service), WFS (ang. Web Feature Service), CSW (ang. Catalogue Service Web) oraz wizualizowania danych z wielu źródeł w ramach pojedynczego, łatwego w obsłudze widoku mapy.
+      </body>
+		</topic>
+	</guide>
+</lang>

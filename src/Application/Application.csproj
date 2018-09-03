@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EAC713C3-F06C-44F9-9DAF-C4A663746DD0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Application</RootNamespace>
+    <AssemblyName>Application</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <AssemblyOriginatorKeyFile>$(SolutionDir)..\build\build-utilities\Intergraph.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>1591</NoWarn>
+    <PublishDatabases>false</PublishDatabases>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\lib\ajax-control-toolkit-main-zip\lib\net40\AjaxControlToolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>..\packages\Castle.Core.3.2.0\lib\net40-client\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor">
+      <HintPath>..\packages\Castle.Windsor.3.2.1\lib\net40\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="ExtJS35">
+      <HintPath>..\..\lib\extjs-main-zip\lib\net40\ExtJS35.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Intergraph.GeoMedia.Web.SDI.Common.Filters">
+      <HintPath>..\..\lib\sdi-tools-main-zip\lib\net40\Intergraph.GeoMedia.Web.SDI.Common.Filters.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.GeoMedia.Web.SDI.Common.Tools">
+      <HintPath>..\..\lib\sdi-tools-main-zip\lib\net40\Intergraph.GeoMedia.Web.SDI.Common.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.Geomedia.Web.SDI.QualityMonitor.Client">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.Geomedia.Web.SDI.QualityMonitor.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.Geomedia.Web.SDI.QualityMonitor.Client.Admin">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.Geomedia.Web.SDI.QualityMonitor.Client.Admin.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.Geomedia.Web.SDI.QualityMonitor.Common">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.Geomedia.Web.SDI.QualityMonitor.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.Licensing.Net.Utilities">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\licensing-zip\lib\net40\Intergraph.Licensing.Net.Utilities.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Intergraph.Portal.Core.ApplicationBase">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.Portal.Core.ApplicationBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.Portal.Core.MapManager.Impl">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.Portal.Core.MapManager.Impl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.Portal.Core.MapManager.Interface">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.Portal.Core.MapManager.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.Portal.Core.Platform.Impl">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.Portal.Core.Platform.Impl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.Portal.Core.Platform.Interface">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.Portal.Core.Platform.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.Portal.Core.Platform.JS">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.Portal.Core.Platform.JS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolution.Core.WebClient.Authorization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolution.Core.WebClient.Authorization.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.Common.Adapters">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.Common.Adapters.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.Common.AdministrationContracts">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.Common.AdministrationContracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.Common.MapLayer">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.Common.MapLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.Common.PrintServiceContracts">
+      <HintPath>..\..\lib\print-service-contracts-main-zip\lib\net40\Intergraph.WebSolutions.Core.Common.PrintServiceContracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.Common.ServiceContracts">
+      <HintPath>..\..\lib\service-contracts-main-zip\lib\net40\Intergraph.WebSolutions.Core.Common.ServiceContracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.Common.STSServiceContracts">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.Common.STSServiceContracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.PSS">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.PSS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.Apollo">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.Apollo.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.Controls">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.CSW">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.CSW.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.GeoRSS">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.GeoRSS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.MapManager">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.MapManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.MapPublisher">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.MapPublisher.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.OpenLS">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.OpenLS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.OpenStreetMap">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.OpenStreetMap.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.Platform">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.SLD">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.SLD.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.Tools">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.WCTS">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.WCTS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.WFS">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.WFS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.WFS.Common">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.WFS.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.WFSG">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.WFSG.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.WMC">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.WMC.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.WMTS">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.WMTS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.SDIPortal.WPS">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.SDIPortal.WPS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.WebClient.Application">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.WebClient.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.WebClient.Controls">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.WebClient.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.WebClient.IWS">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.WebClient.IWS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.WebClient.MapManager">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.WebClient.MapManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.WebClient.Platform">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.WebClient.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.WebSolutions.Core.WebClient.Printing">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Intergraph.WebSolutions.Core.WebClient.Printing.dll</HintPath>
+    </Reference>
+    <Reference Include="Raphael">
+      <HintPath>..\..\lib\core-main-zip\lib\net40\Raphael.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel" />
+    <Reference Include="ServiceStack">
+      <HintPath>..\packages\ServiceStack.3.9.58\lib\net35\ServiceStack.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\packages\ServiceStack.Common.3.9.56\lib\net35\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\packages\ServiceStack.Common.3.9.56\lib\net35\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite">
+      <HintPath>..\packages\ServiceStack.OrmLite.SqlServer.3.9.58\lib\ServiceStack.OrmLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite.SqlServer">
+      <HintPath>..\packages\ServiceStack.OrmLite.SqlServer.3.9.58\lib\ServiceStack.OrmLite.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis">
+      <HintPath>..\packages\ServiceStack.Redis.3.9.58\lib\net35\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.ServiceInterface">
+      <HintPath>..\packages\ServiceStack.3.9.58\lib\net35\ServiceStack.ServiceInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\packages\ServiceStack.Text.3.9.56\lib\net35\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IdentityModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApolloPro.aspx" />
+    <Content Include="App_Data\queryablesApolloMapping.xml" />
+    <Content Include="Admin.aspx" />
+    <Content Include="App_Themes\Templates\Tooltips\States.xml" />
+    <Content Include="AdminEssentials.aspx" />
+    <Content Include="GWMPub.aspx" />
+    <Content Include="Full.aspx" />
+    <Content Include="GWMPubPro.aspx" />
+    <Content Include="img\banner.jpg" />
+    <Content Include="img\flags\bg.gif" />
+    <Content Include="img\flags\he.gif" />
+    <Content Include="img\flags\hi.gif" />
+    <Content Include="img\flags\ja.gif" />
+    <Content Include="img\flags\ko.gif" />
+    <Content Include="img\flags\lv.gif" />
+    <Content Include="img\flags\ms.gif" />
+    <Content Include="img\flags\pt-BR.gif" />
+    <Content Include="img\flags\ro.gif" />
+    <Content Include="img\flags\sr.gif" />
+    <Content Include="img\flags\th.gif" />
+    <Content Include="img\flags\tr.gif" />
+    <Content Include="img\flags\vi.gif" />
+    <Content Include="img\hexagon.png" />
+    <Content Include="img\pin.gif" />
+    <Content Include="img\pin_flat.png" />
+    <Content Include="img\pin_red_flat.png" />
+    <Content Include="js\AdminEssentialsHelper.js" />
+    <Content Include="js\AdminHelper.js" />
+    <Content Include="js\API.js" />
+    <Content Include="js\API.min.js" />
+    <Content Include="js\myvr\hammer.min.js" />
+    <Content Include="js\myvr\mMapInputHandler.js" />
+    <Content Include="js\myvr\mMapSDK.js" />
+    <Content Include="js\myvr\mMapSDK.wrapper.js" />
+    <Content Include="js\myvr\mMapSDK.worker.js" />
+    <Content Include="js\Scrollbar.js" />
+    <Content Include="js\StyleConfig.js" />
+    <Content Include="licenses\antlr3.runtime.license.txt" />
+    <Content Include="js\Print.js" />
+    <Content Include="licenses\boost.license.txt" />
+    <Content Include="licenses\castleactiverecord.license.txt" />
+    <Content Include="licenses\es5-shim.license.txt" />
+    <Content Include="licenses\glew.license.txt" />
+    <Content Include="licenses\jquery.license.txt" />
+    <Content Include="licenses\json3.license.txt" />
+    <Content Include="licenses\jsoncpp.license.txt" />
+    <Content Include="licenses\libcurl.license.txt" />
+    <Content Include="licenses\libjpeg.license.txt" />
+    <Content Include="licenses\libpng.license.txt" />
+    <Content Include="licenses\libtess.license.txt" />
+    <Content Include="licenses\libtiff.license.txt" />
+    <Content Include="licenses\nhibernate.jetdriver.license.txt" />
+    <Content Include="licenses\nhibernate.license.txt" />
+    <Content Include="licenses\proj4.license.txt" />
+    <Content Include="licenses\rapidxml.license.txt" />
+    <Content Include="licenses\servicestack.license.txt" />
+    <Content Include="licenses\svg2xaml.license.txt" />
+    <Content Include="licenses\zlib.license.txt" />
+    <Content Include="NoScript.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apollo.aspx.cs">
+      <DependentUpon>Apollo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apollo.aspx.designer.cs">
+      <DependentUpon>Apollo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApolloPro.aspx.cs">
+      <DependentUpon>ApolloPro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApolloPro.aspx.designer.cs">
+      <DependentUpon>ApolloPro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CRSNamesOverride.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRSNamesOverride.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEssentials.aspx.cs">
+      <DependentUpon>AdminEssentials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEssentials.aspx.designer.cs">
+      <DependentUpon>AdminEssentials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GWMPub.aspx.cs">
+      <DependentUpon>GWMPub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GWMPub.aspx.designer.cs">
+      <DependentUpon>GWMPub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GWMPubPro.aspx.cs">
+      <DependentUpon>GWMPubPro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GWMPubPro.aspx.designer.cs">
+      <DependentUpon>GWMPubPro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IWS.aspx.cs">
+      <DependentUpon>IWS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IWS.aspx.designer.cs">
+      <DependentUpon>IWS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Full.aspx.cs">
+      <DependentUpon>Full.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Full.aspx.designer.cs">
+      <DependentUpon>Full.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Map.aspx.cs">
+      <DependentUpon>Map.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Map.aspx.designer.cs">
+      <DependentUpon>Map.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MapPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MapWithRibbon.aspx.cs">
+      <DependentUpon>MapWithRibbon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MapWithRibbon.aspx.designer.cs">
+      <DependentUpon>MapWithRibbon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MapWithToolbar.aspx.cs">
+      <DependentUpon>MapWithToolbar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MapWithToolbar.aspx.designer.cs">
+      <DependentUpon>MapWithToolbar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile.aspx.cs">
+      <DependentUpon>Mobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile.aspx.designer.cs">
+      <DependentUpon>Mobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoScript.aspx.cs">
+      <DependentUpon>NoScript.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoScript.aspx.designer.cs">
+      <DependentUpon>NoScript.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublisherWebApplication.aspx.cs">
+      <DependentUpon>PublisherWebApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublisherWebApplication.aspx.designer.cs">
+      <DependentUpon>PublisherWebApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScriptResources\AnnotationNames.cs" />
+    <Compile Include="ScriptResources\CRSNames.cs" />
+    <Compile Include="ScriptResources\LegendItemDefNames.cs" />
+    <Compile Include="ScriptResources\MarkersNames.cs" />
+    <Compile Include="ScriptResources\ScriptTranslate.cs" />
+    <Compile Include="LoginForm.aspx.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginForm.aspx.designer.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Setup.aspx.cs">
+      <DependentUpon>Setup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Setup.aspx.designer.cs">
+      <DependentUpon>Setup.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Full.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Default\Default.css" />
+    <Content Include="App_Themes\Default\Default.skin" />
+    <Content Include="Global.asax" />
+    <Content Include="img\ajax-loader.gif" />
+    <Content Include="img\banner.png" />
+    <Content Include="img\intergraph.png" />
+    <Content Include="img\splash.png" />
+    <Content Include="img\tools.gif" />
+    <Content Include="img\transparent.png" />
+    <Content Include="js\LayoutHelper.js" />
+    <Content Include="js\MapConfig.js" />
+    <Content Include="js\Tools.js" />
+    <Content Include="Map.aspx" />
+    <Content Include="MapWithToolbar.aspx" />
+    <Content Include="App_LocalResources\NoScript.aspx.resx" />
+    <Content Include="App_LocalResources\NoScript.aspx.pl.resx" />
+    <Content Include="App_LocalResources\ApolloPro.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\ApolloPro.aspx.pl.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\GWMPub.aspx.pl.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\GWMPub.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Admin.aspx.pl.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Admin.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\AdminEssentials.aspx.pl.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\AdminEssentials.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\GWMPubPro.aspx.pl.resx" />
+    <Content Include="App_LocalResources\GWMPubPro.aspx.resx" />
+    <EmbeddedResource Include="ScriptResources\ScriptTranslate.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminService\AdministrationService.svc" />
+    <Content Include="Apollo.aspx" />
+    <Content Include="App_Data\services.xml" />
+    <Content Include="App_LocalResources\MapWithToolbar.aspx.resx">
+    </Content>
+    <Content Include="App_LocalResources\Map.aspx.resx">
+    </Content>
+    <Content Include="img\notification-warning.png" />
+    <Content Include="img\notification-info.png" />
+    <Content Include="img\notification-error.png" />
+    <Content Include="img\annotation1-top.png" />
+    <Content Include="img\flags\ar.gif" />
+    <Content Include="img\flags\az.gif" />
+    <Content Include="img\flags\blank.gif" />
+    <Content Include="img\flags\ca.gif" />
+    <Content Include="img\flags\cn.gif" />
+    <Content Include="img\flags\cs.gif" />
+    <Content Include="img\flags\da.gif" />
+    <Content Include="img\flags\de.gif" />
+    <Content Include="img\flags\el.gif" />
+    <Content Include="img\flags\en-all.gif" />
+    <Content Include="img\flags\en.gif" />
+    <Content Include="img\flags\es.gif" />
+    <Content Include="img\flags\eu.gif" />
+    <Content Include="img\flags\fr.gif" />
+    <Content Include="img\flags\gl.gif" />
+    <Content Include="img\flags\hu.gif" />
+    <Content Include="img\flags\it.gif" />
+    <Content Include="img\flags\nl.gif" />
+    <Content Include="img\flags\pl.gif" />
+    <Content Include="img\flags\pt.gif" />
+    <Content Include="img\flags\ru.gif" />
+    <Content Include="img\flags\sk.gif" />
+    <Content Include="img\flags\sv.gif" />
+    <Content Include="img\flags\zh-cht.gif" />
+    <Content Include="img\flags\zh-chs.gif" />
+    <Content Include="img\search_meta.GIF" />
+    <Content Include="img\login_bg.png" />
+    <Content Include="img\tools-n.gif" />
+    <Content Include="img\tools-n-mobile.gif" />
+    <Content Include="licenses\ajaxcontroltoolkit.license.txt" />
+    <Content Include="licenses\castlecore.license.txt" />
+    <Content Include="licenses\castlecorelog4netintegration.license.txt" />
+    <Content Include="licenses\castlewindsor.license.txt" />
+    <Content Include="licenses\castlewindsorlog4netintegration.licensing.txt" />
+    <Content Include="licenses\castlewindsorloggingfacility.licnese.txt" />
+    <Content Include="licenses\castlewindsorWCFintegrationfacility.license.txt" />
+    <Content Include="licenses\eula.txt" />
+    <Content Include="licenses\graphael.license.txt" />
+    <Content Include="licenses\log4net.license.txt" />
+    <Content Include="licenses\proj4js.license.txt" />
+    <Content Include="licenses\quartz.net.license.txt" />
+    <Content Include="licenses\raphael.license.txt" />
+    <Content Include="App_Data\Configuration\Authorization\ApplicationConfiguration.xml" />
+    <Content Include="App_Data\Maps\public\SDIPortalSampleMap" />
+    <Content Include="App_Data\Maps\public\SDIPortalSampleWorkspace" />
+    <Content Include="App_Data\Maps\public\SDIPortalSampleMapOSM" />
+    <Content Include="App_Data\Maps\public\SDIPortalSampleWorkspaceOSM" />
+    <Content Include="App_Data\Maps\private\public\maps\SDIPortalSampleMap" />
+    <Content Include="App_Data\Maps\private\public\maps\SDIPortalSampleMap.name" />
+    <Content Include="App_Data\Maps\private\public\maps\SDIPortalSampleMap.workspace" />
+    <Content Include="App_Data\Maps\private\public\maps\SDIPortalSampleMapOSM" />
+    <Content Include="App_Data\Maps\private\public\maps\SDIPortalSampleMapOSM.name" />
+    <Content Include="App_Data\Maps\private\public\maps\SDIPortalSampleMapOSM.workspace" />
+    <Content Include="App_Data\Maps\private\public\member.dat" />
+    <Content Include="App_Data\Maps\private\public\workspaces\SDIPortalSampleWorkspace" />
+    <Content Include="App_Data\Maps\private\public\workspaces\SDIPortalSampleWorkspace.name" />
+    <Content Include="App_Data\Maps\private\public\workspaces\SDIPortalSampleWorkspace.order" />
+    <Content Include="App_Data\Maps\private\public\workspaces\SDIPortalSampleWorkspaceOSM" />
+    <Content Include="App_Data\Maps\private\public\workspaces\SDIPortalSampleWorkspaceOSM.name" />
+    <Content Include="App_Data\Maps\private\public\workspaces\SDIPortalSampleWorkspaceOSM.order" />
+    <Content Include="MapWithRibbon.aspx" />
+    <Content Include="App_LocalResources\MapWithRibbon.aspx.resx" />
+    <Content Include="Mobile.aspx" />
+    <Content Include="PublisherWebApplication.aspx" />
+    <Content Include="LoginForm.aspx" />
+    <Content Include="Setup.aspx" />
+    <Content Include="xsl\CSWGetCapabilitiesHTML\translation\translate.en.xml" />
+    <Content Include="xsl\CSWGetCapabilitiesHTML\translation\translate.pl.xml" />
+    <Content Include="xsl\CSWGetCapabilitiesHTML\__template__.xsl" />
+    <Content Include="xsl\ErdasHtml\translation\translate.pl.xml" />
+    <Content Include="xsl\FeatureInfoHTMLGazetteer\translation\translate.en.xml" />
+    <Content Include="xsl\FeatureInfoHTMLGazetteer\translation\translate.pl.xml" />
+    <Content Include="xsl\FeatureInfoHTML\translation\translate.en.xml" />
+    <Content Include="xsl\FeatureInfoHTML\translation\translate.pl.xml" />
+    <Content Include="xsl\FeatureInfoHTML\__template__.xsl" />
+    <Content Include="xsl\FeatureInfoHTMLGazetteer\__template__.xsl" />
+    <Content Include="xsl\FullHtml\__template__.xsl" />
+    <Content Include="xsl\FullHtml\translation\translate.en.xml" />
+    <Content Include="xsl\FullHtml\translation\translate.pl.xml" />
+    <Content Include="App_LocalResources\Full.aspx.pl.resx" />
+    <Content Include="App_LocalResources\Map.aspx.pl.resx" />
+    <Content Include="App_LocalResources\MapWithRibbon.aspx.pl.resx" />
+    <Content Include="App_LocalResources\MapWithToolbar.aspx.pl.resx" />
+    <Content Include="App_GlobalResources\CRSNamesOverride.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CRSNamesOverride.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\CRSNamesOverride.pl.resx">
+      <LastGenOutput>CRSNamesOverride.pl.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="xsl\TranslateGuide\translation\translate.pl.xml" />
+    <Content Include="xsl\TranslateGuide\translation\translate.en.xml" />
+    <Content Include="xsl\TranslateGuide\__template__.xsl" />
+    <Content Include="xsl\WFSDescribeFeatureTypeHTML\translation\translate.en.xml" />
+    <Content Include="xsl\WFSDescribeFeatureTypeHTML\translation\translate.pl.xml" />
+    <Content Include="xsl\WFSDescribeFeatureTypeHTML\__template__.xsl" />
+    <Content Include="xsl\WFSGetCapabilitiesHTML\translation\translate.en.xml" />
+    <Content Include="xsl\WFSGetCapabilitiesHTML\translation\translate.pl.xml" />
+    <Content Include="xsl\WFSGetCapabilitiesHTML\__template__.xsl" />
+    <Content Include="App_LocalResources\LoginForm.aspx.pl.resx" />
+    <Content Include="App_LocalResources\LoginForm.aspx.resx" />
+    <Content Include="App_LocalResources\Mobile.aspx.pl.resx" />
+    <Content Include="App_LocalResources\Mobile.aspx.resx" />
+    <Content Include="App_LocalResources\Apollo.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Apollo.aspx.pl.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\IWS.aspx.resx" />
+    <Content Include="App_LocalResources\IWS.aspx.pl.resx" />
+    <EmbeddedResource Include="ScriptResources\AnnotationNames.pl.resx">
+      <DependentUpon>AnnotationNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptResources\AnnotationNames.resx">
+      <DependentUpon>AnnotationNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptResources\CRSNames.pl.resx">
+      <DependentUpon>CRSNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptResources\CRSNames.resx">
+      <DependentUpon>CRSNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptResources\LegendItemDefNames.pl.resx">
+      <DependentUpon>LegendItemDefNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptResources\LegendItemDefNames.resx">
+      <DependentUpon>LegendItemDefNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptResources\MarkersNames.pl.resx">
+      <DependentUpon>MarkersNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptResources\MarkersNames.resx">
+      <DependentUpon>MarkersNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptResources\ScriptTranslate.pl.resx">
+      <DependentUpon>ScriptTranslate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptResources\ScriptTranslate.resx">
+      <DependentUpon>ScriptTranslate.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Mobile\Mobile.css" />
+    <Content Include="App_Themes\Mobile\Mobile.skin" />
+    <Content Include="Default.aspx" />
+    <Content Include="img\no_thumbnail.png" />
+    <Content Include="IWS.aspx" />
+    <Content Include="img\pin.png" />
+    <Content Include="js\Mobile.js" />
+    <Content Include="xsl\ErdasHtml\translation\translate.en.xml" />
+    <Content Include="xsl\ErdasHtml\__template__.xsl" />
+    <Content Include="xsl\WMSGetCapabilitiesHTML\translation\translate.en.xml" />
+    <Content Include="xsl\WMSGetCapabilitiesHTML\translation\translate.pl.xml" />
+    <Content Include="xsl\WMSGetCapabilitiesHTML\__template__.xsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\markers\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1972</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/APP</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <BuildDependsOn>OutputCustomFiles;$(BuildDependsOn)</BuildDependsOn>
+  </PropertyGroup>
+  <Target Name="OutputCustomFiles" DependsOnTargets="ReadPackageSpec">
+    <WriteLinesToFile File="App_Data\wc_revision.txt" Lines="$(BUILD_NUMBER.PadLeft(5, '0'))" Overwrite="true" />
+    <WriteLinesToFile File="App_Data\wc_version.txt" Lines="$(BarePackageVersion)" Overwrite="true" />
+    <ItemGroup>
+      <Content Include="App_Data\wc_revision.txt" />
+      <Content Include="App_Data\wc_version.txt" />
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <UseYUICompressor>true</UseYUICompressor>
+    <UseCommonAssemblyVersion>true</UseCommonAssemblyVersion>
+    <ConfigFileToAddABR>web.config</ConfigFileToAddABR>
+  </PropertyGroup>
+  <ItemGroup>
+    <BinAssembliesForABR Include="$(OutputPath)\*.dll" Exclude="$(OutputPath)\*_libFNP.dll" />
+    <JSMin Include="$(MSBuildProjectDirectory)\js\API.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Fonts\VERDANAZ.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Maps\private\public\maps\AustraliaMap" />
+    <Content Include="App_Data\Maps\private\public\maps\AustraliaMap.name" />
+    <Content Include="App_Data\Maps\private\public\maps\AustraliaMap.workspace" />
+    <Content Include="App_Data\Maps\private\public\maps\EmeaAsiaMap" />
+    <Content Include="App_Data\Maps\private\public\maps\EmeaAsiaMap.name" />
+    <Content Include="App_Data\Maps\private\public\maps\EmeaAsiaMap.workspace" />
+    <Content Include="App_Data\Maps\private\public\maps\NorthAmericaMap" />
+    <Content Include="App_Data\Maps\private\public\maps\NorthAmericaMap.name" />
+    <Content Include="App_Data\Maps\private\public\maps\NorthAmericaMap.workspace" />
+    <Content Include="App_Data\Maps\private\public\maps\SouthAmericaMap" />
+    <Content Include="App_Data\Maps\private\public\maps\SouthAmericaMap.name" />
+    <Content Include="App_Data\Maps\private\public\maps\SouthAmericaMap.workspace" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\boxes\sky\Sky_xn" />
+    <Content Include="img\boxes\sky\Sky_xp" />
+    <Content Include="img\boxes\sky\Sky_yn" />
+    <Content Include="img\boxes\sky\Sky_yp" />
+    <Content Include="img\boxes\sky\Sky_zn" />
+    <Content Include="img\boxes\sky\Sky_zp" />
+    <Content Include="img\boxes\sky\web.config" />
+    <Content Include="img\boxes\space\Space_xn" />
+    <Content Include="img\boxes\space\Space_xp" />
+    <Content Include="img\boxes\space\Space_yn" />
+    <Content Include="img\boxes\space\Space_yp" />
+    <Content Include="img\boxes\space\Space_zn" />
+    <Content Include="img\boxes\space\Space_zp" />
+    <Content Include="img\boxes\space\web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Maps\private\public\maps\AustraliaMapOSM" />
+    <Content Include="App_Data\Maps\private\public\maps\AustraliaMapOSM.name" />
+    <Content Include="App_Data\Maps\private\public\maps\AustraliaMapOSM.workspace" />
+    <Content Include="App_Data\Maps\private\public\maps\EmeaAsiaMapOSM" />
+    <Content Include="App_Data\Maps\private\public\maps\EmeaAsiaMapOSM.name" />
+    <Content Include="App_Data\Maps\private\public\maps\EmeaAsiaMapOSM.workspace" />
+    <Content Include="App_Data\Maps\private\public\maps\NorthAmericaMapOSM" />
+    <Content Include="App_Data\Maps\private\public\maps\NorthAmericaMapOSM.name" />
+    <Content Include="App_Data\Maps\private\public\maps\NorthAmericaMapOSM.workspace" />
+    <Content Include="App_Data\Maps\private\public\maps\SouthAmericaMapOSM" />
+    <Content Include="App_Data\Maps\private\public\maps\SouthAmericaMapOSM.name" />
+    <Content Include="App_Data\Maps\private\public\maps\SouthAmericaMapOSM.workspace" />
+  </ItemGroup>
+  <Import Project="$(SolutionDir)..\build\build-utilities\msbuild\main.targets" Condition="Exists('$(SolutionDir)..\build\build-utilities\msbuild\main.targets')" />
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+</Project>

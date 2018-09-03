@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">$(MSBuildProjectDirectory)\..\src\</SolutionDir>
+
+        <Projects Condition="$(Projects) == '' Or $(Projects) == '*Undefined*'">
+          $(SolutionDir)Application\Application.csproj
+        </Projects>
+
+        <PackageFilesDir>$(MSBuildProjectDirectory)\out\PackageFiles\</PackageFilesDir>
+        <PackageWithExternals>$(PackageFilesDir)PackageWithExternalFiles</PackageWithExternals>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <ProjectsToBuild Include="$(Projects)">
+            <Properties>OutputPath=$(MSBuildProjectDirectory)\out\lib\net40\;WebProjectOutputDirInsideProject=false;PackageTempRootDir=$(PackageFilesDir);DefaultPackageOutputDir=$(MSBuildProjectDirectory)\out\Package\</Properties>
+        </ProjectsToBuild>
+    </ItemGroup>
+
+    <!-- Invokes clean on specified csprojs from solution -->
+    <Target Name="Clean" >
+        <MSBuild Projects="@(ProjectsToBuild)" Targets="Clean" />
+    </Target>
+
+    <!-- Invokes Rebuild on specified csprojs from solution -->
+    <Target Name="Rebuild" DependsOnTargets="">
+        <MSBuild Projects="@(ProjectsToBuild)" Targets="Rebuild" />
+    </Target>
+
+    <!-- Invokes Build on specified csprojs from solution -->
+    <Target Name="Build" DependsOnTargets="">
+        <MSBuild Projects="@(ProjectsToBuild)" Targets="Build" />
+    </Target>
+
+    <ItemGroup>
+        <LanguageFiles Include="$(SolutionDir)..\lib\language-assemblies-main-zip\application-root\**\*.*" />
+        <AdminPortalOverrideFiles Include="$(SolutionDir)Overrides\AdminPortalApplication\src\**\*.*" Exclude="$(SolutionDir)Overrides\AdminPortalApplication\src\**\.keep" />
+        <WebPubPortalOverrideFiles Include="$(SolutionDir)Overrides\WebPubPortalApplication\src\**\*.*" Exclude="$(SolutionDir)Overrides\WebPubPortalApplication\src\**\.keep" />
+        <AppEssPortalOverrideFiles Include="$(SolutionDir)Overrides\AppEssPortalApplication\src\**\*.*" Exclude="$(SolutionDir)Overrides\AppEssPortalApplication\src\**\.keep" />
+    </ItemGroup>
+	
+    <!-- Invokes Build on specified csprojs from solution -->
+    <Target Name="Package" DependsOnTargets="">
+        <MSBuild Projects="@(ProjectsToBuild)" Targets="Package" />
+
+        <ItemGroup>
+            <TemplateFiles Include="$(PackageFilesDir)PackageTmp\**\*.*" />
+        </ItemGroup>
+
+        <Copy SourceFiles="@(TemplateFiles)" DestinationFiles="@(TemplateFiles->'$(PackageWithExternals)\%(RecursiveDir)%(Filename)%(Extension)')"/>
+        <Copy SourceFiles="@(LanguageFiles)" DestinationFiles="@(LanguageFiles->'$(PackageWithExternals)\%(RecursiveDir)%(Filename)%(Extension)')"/>
+
+        <ItemGroup>
+            <FullTemplateFiles Include="$(PackageWithExternals)\**\*.*" />
+        </ItemGroup>
+
+        <Copy SourceFiles="@(FullTemplateFiles)" DestinationFiles="@(FullTemplateFiles->'$(PackageFilesDir)AdminPortalPackage\%(RecursiveDir)%(Filename)%(Extension)')"/>
+        <Copy SourceFiles="@(FullTemplateFiles)" DestinationFiles="@(FullTemplateFiles->'$(PackageFilesDir)WebPubPortalPackage\%(RecursiveDir)%(Filename)%(Extension)')"/>
+        <Copy SourceFiles="@(FullTemplateFiles)" DestinationFiles="@(FullTemplateFiles->'$(PackageFilesDir)AppEssPackage\%(RecursiveDir)%(Filename)%(Extension)')"/>
+
+        <Copy SourceFiles="@(AdminPortalOverrideFiles)" DestinationFiles="@(AdminPortalOverrideFiles->'$(PackageFilesDir)AdminPortalPackage\%(RecursiveDir)%(Filename)%(Extension)')"/>
+        <Copy SourceFiles="@(WebPubPortalOverrideFiles)" DestinationFiles="@(WebPubPortalOverrideFiles->'$(PackageFilesDir)WebPubPortalPackage\%(RecursiveDir)%(Filename)%(Extension)')"/>
+        <Copy SourceFiles="@(AppEssPortalOverrideFiles)" DestinationFiles="@(AppEssPortalOverrideFiles->'$(PackageFilesDir)AppEssPackage\%(RecursiveDir)%(Filename)%(Extension)')"/>
+
+        <!-- Copying FILESTODELTE to out/packageFiles/* -->
+        <Copy SourceFiles="$(SolutionDir)meta\AdminPortalPackage\FILESTODELETE" DestinationFolder="$(PackageFilesDir)AdminPortalPackage" Condition="Exists('$(SolutionDir)meta\AdminPortalPackage\FILESTODELETE')" />
+        <Copy SourceFiles="$(SolutionDir)meta\AppEssPackage\FILESTODELETE" DestinationFolder="$(PackageFilesDir)AppEssPackage" Condition="Exists('$(SolutionDir)meta\AppEssPackage\FILESTODELETE')" />
+        <Copy SourceFiles="$(SolutionDir)meta\Main\FILESTODELETE" DestinationFolder="$(PackageFilesDir)PackageTmp" Condition="Exists('$(SolutionDir)meta\Main\FILESTODELETE')" />
+        <Copy SourceFiles="$(SolutionDir)meta\WebPubPortalPackage\FILESTODELETE" DestinationFolder="$(PackageFilesDir)WebPubPortalPackage" Condition="Exists('$(SolutionDir)meta\WebPubPortalPackage\FILESTODELETE')" />
+        <Copy SourceFiles="$(SolutionDir)meta\PackageWithExternalFiles\FILESTODELETE" DestinationFolder="$(PackageFilesDir)PackageWithExternalFiles" Condition="Exists('$(SolutionDir)meta\PackageWithExternalFiles\FILESTODELETE')" />
+	
+        <XslTransformation OutputPaths="$(PackageFilesDir)AdminPortalPackage\web.config" XmlInputPaths="$(PackageWithExternals)\web.config" XslInputPath="$(SolutionDir)Overrides\AdminPortalApplication\web.config.xslt" />
+        <XslTransformation OutputPaths="$(PackageFilesDir)WebPubPortalPackage\web.config" XmlInputPaths="$(PackageWithExternals)\web.config" XslInputPath="$(SolutionDir)Overrides\WebPubPortalApplication\web.config.xslt" />
+        <XslTransformation OutputPaths="$(PackageFilesDir)AppEssPackage\web.config" XmlInputPaths="$(PackageWithExternals)\web.config" XslInputPath="$(SolutionDir)Overrides\AppEssPortalApplication\web.config.xslt" />
+
+        <ItemGroup>
+            <AspxWoAdminFiles Include="$(PackageFilesDir)AdminPortalPackage\*.aspx" Exclude="$(PackageFilesDir)AdminPortalPackage\Admin.aspx;$(PackageFilesDir)AdminPortalPackage\AdminEssentials.aspx" />
+        </ItemGroup>
+
+        <Delete Files="@(AspxWoAdminFiles)" />
+		
+    </Target>
+</Project>

@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="True" CodeBehind="PublisherWebApplication.aspx.cs" Inherits="Application.PublisherWebApplication" %>
